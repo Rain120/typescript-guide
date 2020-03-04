@@ -16,6 +16,11 @@
 touch docs/zh/test/README.md
 ```
 
+自动生成 `docs model`
+```sh
+npm run docs
+```
+
 `Eg: File Path`
 
 ```sh
