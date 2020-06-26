@@ -1,30 +1,16 @@
 const path = require('path');
 const plugins = require('./utils/plugins');
-const { sidebarHelper } = require('./utils/sidebarHelper');
+const { sidebarHelper, sortSidebar } = require('./utils/sidebarHelper');
 const nav = require('./utils/nav');
 
-/**
- * @description [guide, how-to-write-docs, ...]
- * 特殊处理文档顺序, 如你不需要，忽略即可
- */
-// const docs = sidebarHelper();
-// const sidebar = [];
-// docs.map(item => {
-//   if (item.path.includes('guide') || item.path.includes('how-to-write-docs')) {
-//       sidebar.unshift(item)
-//   } else {
-//       sidebar.push(item)
-//   }
-// });
-// [sidebar[1], sidebar[0]] = [sidebar[0], sidebar[1]];
-
-const sidebar = sidebarHelper();
+const sidebar = sortSidebar(sidebarHelper());
+console.log(sidebar)
 
 module.exports = {
   // 替换成你的仓库名
-  base: '/vuepress-docs-template/',
-  title: 'Vuepress Doc Template',
-  description: 'Welcome to Vuepress Doc Template',
+  base: '/typescript-guide/',
+  title: 'Typescript Guide',
+  description: 'Welcome to Typescript Guide',
   port: 9527,
   // dest: 'dist',
   // head 配置
@@ -76,7 +62,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     theme: 'vue',
-    repo: 'https://github.com/Rain120/vuepress-docs-template',
+    repo: 'https://github.com/Rain120/typescript-guide',
     repoLabel: 'Repo',
 
     displayAllHeaders: true,

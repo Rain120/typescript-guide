@@ -10,6 +10,6 @@ git init
 git add -A
 git commit -m 'deploy vuepress docs gh-pages'
 
-git push -f git@github.com:Rain120/vuepress-docs-template.git master:gh-pages
+git push -f git@github.com:Rain120/typescript-guide.git master:gh-pages
 
 cd -

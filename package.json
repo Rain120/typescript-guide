@@ -1,9 +1,9 @@
 {
-  "name": "vuepress-docs-template",
+  "name": "typescript-guide",
   "author": "Rain120",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rain120/vuepress-docs-template.git"
+    "url": "git+https://github.com/Rain120/typescript-guide.git"
   },
   "version": "1.0.0",
   "description": "Awesome code implementation for Javascript",
@@ -11,7 +11,7 @@
   "scripts": {
     "lint-staged": "lint-staged",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "plop": "./node_modules/.bin/plop",
+    "pop": "./node_modules/.bin/plop",
     "docs": "npm run plop docs",
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
@@ -23,13 +23,13 @@
     "template",
     "vuepress-docs",
     "docs-template",
-    "vuepress-docs-template"
+    "typescript-guide"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Rain120/vuepress-docs-template/issues"
+    "url": "https://github.com/Rain120/typescript-guide/issues"
   },
-  "homepage": "https://github.com/Rain120/vuepress-docs-template#readme",
+  "homepage": "https://github.com/Rain120/typescript-guide#readme",
   "lint-staged": {
     "{src}/**/**.ts": [
       "git add"

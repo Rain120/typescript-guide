@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-02-27 16:38:27
  * @LastEditors: Rainy
- * @LastEditTime: 2020-02-27 17:28:41
+ * @LastEditTime: 2020-06-25 17:48:24
  */
 
 const fs = require('fs');
@@ -31,21 +31,23 @@ function helper({ dir, fPath }) {
   const children = syncDirPath(currentPath)
     .filter(fPath => !ignore.includes(fPath))
     .map((sub, index) => {
-    const fsStats = fs.statSync(path.join(currentPath, sub));
+      const fsStats = fs.statSync(path.join(currentPath, sub));
 
-    if (fsStats.isDirectory()) {
-      return helper({ dir: currentPath, fPath: sub });
-    } else if (fsStats.isFile() && !README_REG.test(sub)) {
-      const name = sub.replace('\.md', '');
-      return {
-        title: mapper(name) || `${name}`,
-        path: `${prefixPath}/${fPath}/${name}`,
+      if (fsStats.isDirectory()) {
+        return helper({ dir: currentPath, fPath: sub });
+      } else if (fsStats.isFile() && !README_REG.test(sub)) {
+        const name = sub.replace('\.md', '');
+        return {
+          title: mapper(name) || `${name}`,
+          key: name,
+          path: `${prefixPath}/${fPath}/${name}`,
+        }
       }
-    }
-  }).filter(Boolean);
+    }).filter(Boolean);
 
   return {
     title: mapper(fPath) || `${fPath}`,
+    key: fPath,
     path: `${prefixPath}/${fPath}/`,
     collapsable: true,
     children: Array.isArray(children) ? children : [children],
@@ -60,6 +62,23 @@ function sidebarHelper(dir = filePath) {
     });
 }
 
+function findIndex(value) {
+  return Object.keys(alias).findIndex(item => item === value)
+}
+
+function sortSidebar(sidebar) {
+  sidebar.sort((a, b) => {
+    return findIndex(a.key) - findIndex(b.key);
+  });
+  for (const item of sidebar) {
+    if (item && Array.isArray(item.children)) {
+      item.children = sortSidebar(item.children);
+    }
+  }
+  return sidebar;
+}
+
 module.exports = {
-  sidebarHelper
+  sidebarHelper,
+  sortSidebar,
 };

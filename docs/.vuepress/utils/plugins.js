@@ -25,7 +25,7 @@ module.exports = [
       gitalk: {
         clientID: '13f222b6ec6782dbe85f',
         clientSecret: '60984ee0c8926c160d2dc1a32e2769f2002e0a1b',
-        repo: 'vuepress-docs-template',
+        repo: 'typescript-guide',
         owner: 'Rain120',
         admin: ['Rain120'],
         distractionFreeMode: true,

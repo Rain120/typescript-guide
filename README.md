@@ -1,23 +1,23 @@
 <h3 align="center">
-  <a href="https://github.com/Rain120/vuepress-docs-template">Vuepress Docs Template</a>
+  <a href="https://github.com/Rain120/typescript-guide">Typescript Guide</a>
   <img align="center" src="docs/.vuepress/public/images/docs.png" />
 </h3>
 
 <div align="center">
 
-[![GitHub watchers](https://img.shields.io/github/watchers/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/vuepress-docs-template/watchers)
-[![STAR](https://img.shields.io/github/stars/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/vuepress-docs-template/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/vuepress-docs-template?style=social)](https://github.com/Rain120/vuepress-docs-template/network/members)
+[![GitHub watchers](https://img.shields.io/github/watchers/rain120/typescript-guide?style=social)](https://github.com/Rain120/typescript-guide/watchers)
+[![STAR](https://img.shields.io/github/stars/rain120/typescript-guide?style=social)](https://github.com/Rain120/typescript-guide/stargazers) [![FORK](https://img.shields.io/github/forks/rain120/typescript-guide?style=social)](https://github.com/Rain120/typescript-guide/network/members)
 
-[![ISSUES](https://img.shields.io/github/issues/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/vuepress-docs-template/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/vuepress-docs-template/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/vuepress-docs-template/commits/master)
+[![ISSUES](https://img.shields.io/github/issues/rain120/typescript-guide?style=flat-square)](https://github.com/Rain120/typescript-guide/issues) [![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/rain120/typescript-guide?style=flat-square)](https://github.com/Rain120/typescript-guide/pulls) [![COMMIT](https://img.shields.io/github/last-commit/rain120/typescript-guide?style=flat-square)](https://github.com/Rain120/typescript-guide/commits/master)
 
-![LANGUAGES](https://img.shields.io/github/languages/top/rain120/vuepress-docs-template?style=flat-square)
-[![VERSION](https://img.shields.io/github/package-json/v/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/vuepress-docs-template/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/vuepress-docs-template?style=flat-square)](https://github.com/Rain120/vuepress-docs-template/blob/master/LICENSE)
+![LANGUAGES](https://img.shields.io/github/languages/top/rain120/typescript-guide?style=flat-square)
+[![VERSION](https://img.shields.io/github/package-json/v/rain120/typescript-guide?style=flat-square)](https://github.com/Rain120/typescript-guide/blob/master/package.json) [![LICENSE](https://img.shields.io/github/license/rain120/typescript-guide?style=flat-square)](https://github.com/Rain120/typescript-guide/blob/master/LICENSE)
 
 </div>
 
 ## 😚 Welcome
 
-Welcome to the Vuepress Docs Template
+Welcome to the Typescript Guide
 
 ## 🎮 TL;DR
 
@@ -32,7 +32,7 @@ Easy to write documents for someone.
 ### Pure Document
 
 ```sh {1}
-git clone git@github.com:Rain120/vuepress-docs-template.git
+git clone git@github.com:Rain120/typescript-guide.git
 
 yarn install # or npm install
 ```
@@ -207,13 +207,13 @@ Now you have all mine, Enjoy yourself!! 😉😉😉
 
 ![PR](https://img.shields.io/badge/PRs-Welcome-orange?style=flat-square&logo=appveyor)
 
-We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/vuepress-docs-template/pulls) or as a GitHub [issue](https://github.com/Rain120/vuepress-docs-template/issues).
+We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/typescript-guide/pulls) or as a GitHub [issue](https://github.com/Rain120/typescript-guide/issues).
 
 ## 🔗 Links
 
 - [Vuepress Docs](https://vuepress.vuejs.org/)
 
-- [Demo](https://rain120.github.io/vuepress-docs-template)
+- [Demo](https://rain120.github.io/typescript-guide)
 
 - [awesome-javascript-code-implementation github.io](https://rain120.github.io/awesome-javascript-code-implementation/)
 
@@ -227,7 +227,7 @@ We welcome all contributions. You can submit any ideas as [pull requests](https:
 
 ## 📝 License
 
-[MIT](https://github.com/Rain120/vuepress-docs-template/blob/master/LICENSE)
+[MIT](https://github.com/Rain120/typescript-guide/blob/master/LICENSE)
 
 Copyright © 2020-present [Rain120](https://github.com/Rain120).
 
