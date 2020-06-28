@@ -9,13 +9,13 @@ console.log(sidebar)
 module.exports = {
   // 替换成你的仓库名
   base: '/typescript-guide/',
-  title: 'Typescript Guide',
+  title: 'Typescript 指导书',
   description: 'Welcome to Typescript Guide',
   port: 9527,
   // dest: 'dist',
   // head 配置
   head: [
-    ['link', { rel: 'icon', href: '/logo.png' }],
+    ['link', { rel: 'icon', href: '/ts-logo.png' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
@@ -40,7 +40,7 @@ module.exports = {
   // },
   locales: {
     '/': {
-      lang: 'zh-CN', 
+      lang: 'zh-CN',
     }
   },
   // markdown
@@ -71,7 +71,7 @@ module.exports = {
 
     // polyfill IE
     evergreen: true,
-      
+
     // search
     search: true,
     searchMaxSuggestions: 10,

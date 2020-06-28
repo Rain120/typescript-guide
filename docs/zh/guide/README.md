@@ -21,15 +21,16 @@ Welcome to the Typescript Guide.
 
 ## 🎮 TL;DR
 
-⌨️ To be Continue...
+<!-- ⌨️ To be Continue... -->
+[Document](https://rain120.github.io/typescript-guide/)
 
 ## ✍ Why am I doing this?
 
 Write a documents for how to easy use typescript.
 
-## 🔨 Usage
+<!-- ## 🔨 Usage
 
-⌨️ To be Continue...
+⌨️ To be Continue... -->
 
 ## 🤝 Contributing
 

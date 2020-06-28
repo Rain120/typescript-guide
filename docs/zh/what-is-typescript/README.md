@@ -8,6 +8,9 @@
 |---------|---------|
 |静态语言|动态语言|
 |一种面向对象的编程语言, 需要TypeScript编译器才能转换为JavaScript文件|一种脚本语言, 不需要编译器, 可以在浏览器上运行。|
+|强类型，支持静态和动态类型|弱类型，没有静态类型选项|
+|可以导入文件和模块|不允许支持模块|
+|支持类，继承，接口和修饰符|不支持类，继承，接口和修饰符|
 
 ## 为什么使用TypeScript
 
@@ -25,7 +28,8 @@
 
 类型具有 **提高代码质量** 和 **可理解性** 的能力。大型团队（`Google`, `Microsoft`, `Facebook`）一直在得出这一结论。 特别:
 
-- 类型在进行重构时可以提高敏捷性。 对于编译器来说, 捕获错误比使事情在运行时失败更好。
+- 类型在进行重构时可以提高敏捷性。 对于编译器来说, **捕获错误** 比使事情在运行时失败更好。
+
 - 类型是您可以拥有的最佳文档形式之一。 函数签名是一个定理, 函数体是证明。
 
 但是, 类型定义有时候不需要特别的正式。 `TypeScript` 会根据类型推导尽可能降低的我们定义类型的成本。
@@ -53,7 +57,7 @@ tsc hello_world.ts
 [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
 
 <iframe
-  width='105%'
+  width='100%'
   height='500'
   src='https://www.typescriptlang.org/play/index.html'>
 </iframe>
@@ -61,6 +65,8 @@ tsc hello_world.ts
 ## 学习资料
 
 [《TypeScript Deep Dive》](https://basarat.gitbook.io/typescript/) 是一本很好的开源书，从基础到深入，很全面的阐述了 `TypeScript` 的各种魔法，不管你是新手，还是老鸟，它都将适应你。此外，它不同于 `TypeScript` 官方给出的文档（当然 `TypeScript` 给出的文档是很好的），在此书中，结合实际应用下的场景用例，你将能更深入的理解 `TypeScript`。[中文版](https://jkchao.github.io/typescript-book-chinese/)
+
+[awesome-typescript](https://github.com/semlinker/awesome-typescript) 收集了很多 `Typescript` 的相关学习资料。
 
 ## 参考资料
 

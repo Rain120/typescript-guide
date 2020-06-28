@@ -50,13 +50,13 @@ module.exports = [
     }
   ],
   ['@vuepress/blog'],
-  [
-    '@vuepress/last-updated',
-    {
-      transformer: (timestamp, lang) => {
-        moment.locale(lang)
-        return moment(timestamp).fromNow()
-      }
-    }
-  ]
+  // [
+  //   '@vuepress/last-updated',
+  //   {
+  //     transformer: (timestamp, lang) => {
+  //       moment.locale(lang)
+  //       return moment(timestamp).fromNow()
+  //     }
+  //   }
+  // ]
 ];
