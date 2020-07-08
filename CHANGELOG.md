@@ -4,6 +4,7 @@
 ### Bug Fixes
 
 * monaco editor build bug (cannot require async component) ([906f6e8](https://github.com/Rain120/typescript-guide/commit/906f6e8379efe762d76f16381b657e4752be4dd4))
+* monaco editor show normal modal and can edit ([da7a4c9](https://github.com/Rain120/typescript-guide/commit/da7a4c9316b6bf245ceccea93f3518ddaf810f80))
 
 
 ### Features
