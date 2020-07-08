@@ -427,7 +427,9 @@ const profile = {}
 	modifiedModel="test diff"
 /> -->
 
-<Editor value='// enjoy yourself' />
+<Editor
+	value='// enjoy yourself'
+/>
 
 <!-- <ClientOnly></ClientOnly> -->
 

@@ -63,8 +63,8 @@ export default {
 	mounted () {
 		import('monaco-editor/esm/vs/editor/editor.api').then(module => {
       this.monaco = module.default;
-			// this.initDiffMonaco();
 			this.initMonaco();
+			// this.initDiffMonaco();
     })
 	},
 	methods: {
@@ -100,7 +100,7 @@ export default {
 		},
 		initMonaco() {
 			const el = document.querySelector('#monaco');
-			monaco.editor.createDiffEditor(el, {
+			monaco.editor.create(el, {
 				width: '100%',
 				value: this.value,
 				theme: this.theme,

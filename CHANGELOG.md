@@ -1,6 +1,11 @@
 # 1.0.0 (2020-07-08)
 
 
+### Bug Fixes
+
+* monaco editor build bug (cannot require async component) ([906f6e8](https://github.com/Rain120/typescript-guide/commit/906f6e8379efe762d76f16381b657e4752be4dd4))
+
+
 ### Features
 
 * init typscript guide & add guide, introduction, base ([365b637](https://github.com/Rain120/typescript-guide/commit/365b637d872cc92c23a04c09788d50001ee46a73))
