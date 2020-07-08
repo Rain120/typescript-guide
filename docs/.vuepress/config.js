@@ -1,10 +1,11 @@
 const path = require('path');
+const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin')
 const plugins = require('./utils/plugins');
 const { sidebarHelper, sortSidebar } = require('./utils/sidebarHelper');
 const nav = require('./utils/nav');
 
 const sidebar = sortSidebar(sidebarHelper());
-console.log(sidebar)
+// console.log(sidebar)
 
 module.exports = {
   // 替换成你的仓库名
@@ -35,9 +36,18 @@ module.exports = {
       }
     }
   },
-  // chainWebpack:(config,isServer) =>{
-  //   config.resolve.alias.set('@images',path.resolve(__dirname, '../../'))
-  // },
+  chainWebpack:(config, isServer) => {
+		// config.resolve.alias.set('@images',path.resolve(__dirname, '../../'))
+		config.plugin('monaco-editor').use(MonacoWebpackPlugin, [
+      {
+        // Languages are loaded on demand at runtime
+        languages: [
+					'javascript',
+					'typescript',
+				]
+      }
+    ])
+  },
   locales: {
     '/': {
       lang: 'zh-CN',

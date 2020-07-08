@@ -408,6 +408,38 @@ type All = Foo | Bar | Baz
   - 没有返回值, 返回 `void`类型
   - 总是抛出错误, 返回 `never` 类型 -->
 
+## 快来耍耍啊
+
+### 🌰🌰
+
+定义一个人员信息, 包括姓名, 年龄等信息。
+
+```
+const profile = {}
+```
+
+### 游乐场
+
+<br />
+
+<!-- <Editor
+	originalModel="test"
+	modifiedModel="test diff"
+/> -->
+
+<Editor value='// enjoy yourself' />
+
+<!-- <ClientOnly></ClientOnly> -->
+
+### 参考答案
+
+```ts
+interface Profile {
+	name: string;
+	age: number | string;
+}
+```
+
 ## 参考资料
 
 [Typescript Basic Types](https://www.typescriptlang.org/docs/handbook/basic-types.html) -> [中文](https://www.tslang.cn/docs/handbook/basic-types.html)
