@@ -11,5 +11,6 @@
   "decorators": "Typescript 装饰器",
   "class": "Typescript 类",
   "interface": "Typescript 接口",
-  "generics": "Typescript 泛型"
+  "generics": "Typescript 泛型",
+  "operator": "Typescript 运算符"
 }

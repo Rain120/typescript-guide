@@ -57,7 +57,7 @@ tsc hello_world.ts
 [TypeScript Playground](https://www.typescriptlang.org/play/index.html)
 
 <iframe
-  width='100%'
+  width='122%'
   height='500'
   src='https://www.typescriptlang.org/play/index.html'>
 </iframe>
