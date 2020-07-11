@@ -26,7 +26,7 @@ Welcome to the Typescript Guide.
 
 ## ✍ Why am I doing this?
 
-Write a documents for how to easy use typescript.
+Write documents for how to easily use typescript.
 
 <!-- ## 🔨 Usage
 
@@ -38,9 +38,13 @@ Write a documents for how to easy use typescript.
 
 We welcome all contributions. You can submit any ideas as [pull requests](https://github.com/Rain120/typescript-guide/pulls) or as a GitHub [issue](https://github.com/Rain120/typescript-guide/issues).
 
+[How to write Docs](how-to-write-docs.md)
+
 ## 🔗 Links
 
-⌨️ To be Continue...
+<!-- ⌨️ To be Continue... -->
+
+[Online Docs](https://rain120.github.io/typescript-guide/)
 
 ## 👨‍🏭 Author
 
