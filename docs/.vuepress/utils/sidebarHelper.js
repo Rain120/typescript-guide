@@ -2,16 +2,21 @@
  * @Author: Rainy
  * @Date: 2020-02-27 16:38:27
  * @LastEditors: Rainy
- * @LastEditTime: 2020-07-06 10:14:51
+ * @LastEditTime: 2020-07-11 17:44:01
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const prefixPath = 'zh';
-const filePath = path.join(__dirname, `../../${prefixPath}`);
+const language = 'zh';
+const filePath = path.join(__dirname, `../../${language}`);
 const ignore = ['images', '.vuepress', '.DS_Store'];
 const README_REG = /README/;
+
+// INFO: 从 package.json 获取你的文档名字, 主要为了配置多层级子目录
+const docsPath = process.cwd();
+const pkg = require(`${docsPath}/package.json`);
+const pkgName = pkg.name || docsPath.trim().split('/').slice(-1).toString();
 
 /**
  * @description 特殊处理文档顺序
@@ -41,6 +46,7 @@ function syncDirPath(file = filePath) {
 }
 
 function helper({ dir, fPath }) {
+  const prefixPath = dir.split(`${pkgName}/docs`)[1];
   const currentPath = path.join(dir, fPath);
 
   const children = syncDirPath(currentPath)
