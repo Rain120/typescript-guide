@@ -28,6 +28,45 @@ Welcome to the Typescript Guide.
 
 Write documents for how to easily use typescript.
 
+## 🍾 Objective Key Result (OKR)
+
+### Objective
+
+Learning all about the base of Typescript, and practice it
+
+### Key Result
+
+- [x] [Compile Config](../compile-config/README.md)
+
+- [x] [Basic](../basic/README.md)
+
+- [ ] [Type Assertion](../type-assertion/README.md)
+
+- [ ] [Union Types](../union-types/README.md)
+
+- [ ] [Type Guard](../type-guard/README.md)
+
+- [ ] [Array](../array/README.md)
+
+- [ ] [Function](../function/README.md)
+
+- [ ] [Decorators](../decorators/README.md)
+
+- [ ] [Class](../class/README.md)
+
+- [ ] [Interface](../interface/README.md)
+
+- [ ] [Generics](../generics/README.md)
+
+- [ ] [Operator](../operator/README.md)
+
+- [ ] [Tips](../tips/README.md)
+
+- [ ] [FAQs](../faqs/README.md)
+
+
+⌨️ To be Continue...
+
 <!-- ## 🔨 Usage
 
 ⌨️ To be Continue... -->

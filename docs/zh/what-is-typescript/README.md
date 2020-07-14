@@ -75,3 +75,5 @@ tsc hello_world.ts
 [Why Typescript](https://basarat.gitbook.io/typescript/getting-started/why-typescript)
 
 [TypeScript 入门教程](https://juejin.im/post/5edd8ad8f265da76fc45362c)
+
+[未来可期的 TypeScript](https://mp.weixin.qq.com/s?__biz=MzIxNjgwMDIzMA==&mid=2247485103&idx=1&sn=9063e21d824db34820e955967c5a8ea3&scene=21#wechat_redirect)

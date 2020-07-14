@@ -1,10 +1,11 @@
-# 1.0.0 (2020-07-11)
+# 1.0.0 (2020-07-14)
 
 
 ### Bug Fixes
 
 * monaco editor build bug (cannot require async component) ([906f6e8](https://github.com/Rain120/typescript-guide/commit/906f6e8379efe762d76f16381b657e4752be4dd4))
 * monaco editor show normal modal and can edit ([da7a4c9](https://github.com/Rain120/typescript-guide/commit/da7a4c9316b6bf245ceccea93f3518ddaf810f80))
+* nested sub-level directories path ([c6830ac](https://github.com/Rain120/typescript-guide/commit/c6830ac37ada02270874d8d3d7ab00fade02e51d))
 * update google analysis id ([2e1721b](https://github.com/Rain120/typescript-guide/commit/2e1721b7f5a7b671398f5d6ec2c094194c4229c0))
 
 
