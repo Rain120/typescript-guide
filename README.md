@@ -35,33 +35,33 @@ Learning all about the base of Typescript, and practice it
 
 ### Key Result
 
-- [x] [Compile Config](../compile-config/README.md)
+- [x] [Compile Config](./docs/zh/compile-config/README.md)
 
-- [x] [Basic](../basic/README.md)
+- [x] [Basic](./docs/zh/basic/README.md)
 
-- [ ] [Type Assertion](../type-assertion/README.md)
+- [ ] [Type Assertion](./docs/zh/type-assertion/README.md)
 
-- [ ] [Union Types](../union-types/README.md)
+- [ ] [Union Types](./docs/zh/union-types/README.md)
 
-- [ ] [Type Guard](../type-guard/README.md)
+- [ ] [Type Guard](./docs/zh/type-guard/README.md)
 
-- [ ] [Array](../array/README.md)
+- [ ] [Array](./docs/zh/array/README.md)
 
-- [ ] [Function](../function/README.md)
+- [ ] [Function](./docs/zh/function/README.md)
 
-- [ ] [Decorators](../decorators/README.md)
+- [ ] [Decorators](./docs/zh/decorators/README.md)
 
-- [ ] [Class](../class/README.md)
+- [ ] [Class](./docs/zh/class/README.md)
 
-- [ ] [Interface](../interface/README.md)
+- [ ] [Interface](./docs/zh/interface/README.md)
 
-- [ ] [Generics](../generics/README.md)
+- [ ] [Generics](./docs/zh/generics/README.md)
 
-- [ ] [Operator](../operator/README.md)
+- [ ] [Operator](./docs/zh/operator/README.md)
 
-- [ ] [Tips](../tips/README.md)
+- [ ] [Tips](./docs/zh/tips/README.md)
 
-- [ ] [FAQs](../faqs/README.md)
+- [ ] [FAQs](./docs/zh/faqs/README.md)
 
 
 <!-- ## 🔨 Usage
