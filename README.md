@@ -39,7 +39,7 @@ Learning all about the base of Typescript, and practice it
 
 - [x] [Basic](./docs/zh/basic/README.md)
 
-- [ ] [Type Assertion](./docs/zh/type-assertion/README.md)
+- [x] [Type Assertion](./docs/zh/type-assertion/README.md)
 
 - [ ] [Union Types](./docs/zh/union-types/README.md)
 

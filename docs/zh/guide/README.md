@@ -40,7 +40,7 @@ Learning all about the base of Typescript, and practice it
 
 - [x] [Basic](../basic/README.md)
 
-- [ ] [Type Assertion](../type-assertion/README.md)
+- [x] [Type Assertion](../type-assertion/README.md)
 
 - [ ] [Union Types](../union-types/README.md)
 
