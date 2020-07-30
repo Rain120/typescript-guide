@@ -2,13 +2,14 @@
  * @Author: Rainy
  * @Date: 2020-03-04 17:43:25
  * @LastEditors: Rainy
- * @LastEditTime: 2020-07-05 16:47:18
+ * @LastEditTime: 2020-07-29 19:49:51
  */
 
 const path = require('path');
 const fs = require('fs');
 
 const aliasPath = path.resolve('docs/.vuepress/utils/alias.json')
+const last = ['tips', 'faqs'];
 
 /**
  *
@@ -27,7 +28,18 @@ function addAlias(key, value) {
 		throw new Error('The key is exist');
 	}
 
-	const file = JSON.stringify(content, null, 2);
+	const alias = {};
+	Object.keys(content).forEach(key => {
+		if (!last.includes(key)) {
+			alias[key] = content[key];
+		}
+	});
+
+	last.forEach(key => {
+		alias[key] = content[key];
+	});
+
+	const file = JSON.stringify(alias, null, 2);
 
 	fs.writeFileSync(aliasPath, new Buffer(file))
 }

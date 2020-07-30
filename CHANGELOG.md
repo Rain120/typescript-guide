@@ -1,4 +1,4 @@
-# 1.0.0 (2020-07-27)
+# 1.0.0 (2020-07-30)
 
 
 ### Bug Fixes
@@ -19,6 +19,7 @@
 * plop new docs & update alias; update plop template; add docs catalog & folders ([dd5326a](https://github.com/Rain120/typescript-guide/commit/dd5326ac2934069c2cb10238c674e4dc86844274))
 * ts basic type; update logo; guide; add editorconfig ([c0b6eb2](https://github.com/Rain120/typescript-guide/commit/c0b6eb272ab4d87706902cdda365230e507b860b))
 * ts operator; compile config; fix: playground frame width bug ([f2bcaa0](https://github.com/Rain120/typescript-guide/commit/f2bcaa05bfdf574037ec54ed3e651ce1d1353b5c))
+* type assertion ([f77f51c](https://github.com/Rain120/typescript-guide/commit/f77f51c574f036d6079742eca8f8affa7b06f617))
 * vuepress docs template ([77f3649](https://github.com/Rain120/typescript-guide/commit/77f36499665edfad4f0333d6a55f54a541177f06))
 * wip generics, interface; add okr about the doc ([d2f6397](https://github.com/Rain120/typescript-guide/commit/d2f6397641ec4a590a51f297c1a9d61564500dff))
 

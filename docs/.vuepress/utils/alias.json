@@ -4,6 +4,7 @@
   "compile-config": "Typescript 编译配置",
   "basic": "Typescript 基础类型 ",
   "type-assertion": "Typescript 类型断言",
+  "intersection-types": "TypeScript 交叉类型",
   "union-types": "Typescript 联合类型",
   "type-guard": "Typescript 类型保护",
   "array": "Typescript 数组",
@@ -13,6 +14,7 @@
   "interface": "Typescript 接口",
   "generics": "Typescript 泛型",
   "operator": "Typescript 运算符",
+  "utility-types": "Typescript 使用工具类型",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }

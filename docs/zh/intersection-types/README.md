@@ -28,6 +28,5 @@
 
 ## 参考资料
 
-[handbook - union-types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#union-types)
+[handbook - intersection-types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#intersection-types)
 
-[unions](https://basarat.gitbook.io/typescript/type-system/discriminated-unions)

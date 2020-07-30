@@ -42,6 +42,8 @@ Learning all about the base of Typescript, and practice it
 
 - [x] [Type Assertion](../type-assertion/README.md)
 
+- [ ] [Intersection Types](../intersection-types/README.md)
+
 - [ ] [Union Types](../union-types/README.md)
 
 - [ ] [Type Guard](../type-guard/README.md)
@@ -58,7 +60,9 @@ Learning all about the base of Typescript, and practice it
 
 - [ ] [Generics](../generics/README.md)
 
-- [ ] [Operator](../operator/README.md)
+- [x] [Operator](../operator/README.md)
+
+- [x] [Utility Types](./docs/zh/utility-types/README.md)
 
 - [ ] [Tips](../tips/README.md)
 
