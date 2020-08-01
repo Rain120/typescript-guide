@@ -72,6 +72,10 @@ tsc hello_world.ts
 
 [TypeScript](https://www.typescriptlang.org/)
 
+[TypeScript Github](https://github.com/Microsoft/TypeScript)
+
+[typescript Announcing](https://devblogs.microsoft.com/typescript/)
+
 [Why Typescript](https://basarat.gitbook.io/typescript/getting-started/why-typescript)
 
 [TypeScript 入门教程](https://juejin.im/post/5edd8ad8f265da76fc45362c)

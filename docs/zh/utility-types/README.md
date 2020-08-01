@@ -8,6 +8,8 @@
 
 ### `Partial<T>`
 
+[Typescript 2.1 新增工具方法](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1-2/)
+
 #### 定义
 
 构造一个类型 `T`, 将类型 `T`的所有属性设置为 **可选属性**。该工具类方法将返回一个表示输入类型 `(T)` 的所有自己的类型。
@@ -47,6 +49,8 @@ type Partial<T> = {
 [直接体验](https://www.typescriptlang.org/play/#code/PTAEAUEMCcBcEtIBsBQL4DtYFNoDNIBjbUAFQHsATc0AbxQEgFYlsAuUAZ1mkwHMA3I0rZOhXgAcE5DB268MglAF80eAK4ZC0jKHUTKkHBWoAKWFXIcT5ADSg88bEkqcKAVQNH2EGAmQAPDYAfACUdIzQ2LDq0Lq0oAB0yRbU9smJjs6uHl44oMpCqiiEMtygqeQAjKAAvBFM8Cw+AOTk0HyQGPAAXiQinADWLbbCouLwUvAyHC2ErDCg8+qwONAjKkIlZbAVlgBMdXp52DbmllX29AwDE1MzoC2wABbQ5ADuoOQrFdCQnM8NspQgIgA)
 
 ### `Readonly<T>`
+
+[Typescript 2.1 新增工具方法](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1-2/)
 
 #### 定义
 
@@ -89,6 +93,8 @@ type Readonly<T> = {
 
 ### `Record<K, T>`
 
+[Typescript 2.1 新增工具方法](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1-2/)
+
 #### 定义
 
 构造一个属性为 `K` 类型, 属性值为 `T` 类型的类型。可用于将一个类型的属性 **映射到** 另一个类型中。
@@ -129,6 +135,8 @@ type Record<K extends keyof any, T> = {
 [直接体验](https://www.typescriptlang.org/play/#code/PTAECUFMGMHsCcAmAoZBLAdgF0vAZgIbSSgAKBA5iQN7Kj2hZpYA2kAXKAM5byYUBuOgzjZI2Tjz4ZByAL6osATwAOJclQAqqkgF5QAcgAWsALaQDoAD6GCAI1gBXLJZsHRWIi6HJRPbswcEDAIiAA8GpAANGSUkNpqAHyg+rQMoCbmnGnpIrBiEoaZFsL0clGloPZOWNmV6UysQQbVzgYVuXkFtbYObZXllR5edZ30HuI97vme0C4DFQpAA)
 
 ### `Pick<T, K>`
+
+[Typescript 2.1 新增工具方法](https://devblogs.microsoft.com/typescript/announcing-typescript-2-1-2/)
 
 #### 定义
 
@@ -416,8 +424,9 @@ type InstanceType<
 
 [直接体验](https://www.typescriptlang.org/play/?ssl=17&ssc=39&pln=17&pc=44#code/PTAECUFMBcFcCcB2AVAngB0gKCwYwDYCGAzsaAMKgDeWodoAHqALygAMA3Lfai+1wF8cWaBkihkbPgElExaIUS5IaTAB5RmAPYAzCgD4OdEBRybxyAIwy5CpSrFrFqQ8bDOzYiQCYb8xcqqkGqIkABukPCuoCYeIl7IAMx+doGO8vAAlogA5tEmAKLw8FrwnpgSACwpAQ7qAGKwStCZWoj5YEUl8EA)
 
-
 ### `Required<T>`
+
+[Typescript 2.8 rc 新增工具方法](https://devblogs.microsoft.com/typescript/announcing-typescript-2-8-rc/)
 
 #### 定义
 
