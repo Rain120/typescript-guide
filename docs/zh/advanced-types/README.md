@@ -1,10 +1,10 @@
 ## 目录
 
-- [Typescript 类型断言](./type-assertion/README.md)
-
 - [TypeScript 交叉类型](./intersection-types/README.md)
 
 - [Typescript 联合类型](./union-types/README.md)
+
+- [Typescript 类型保护](./type-guard/README.md)
 
 ## 参考资料
 

@@ -8,11 +8,11 @@
 
 ```ts
 interface Boy {
-	handsome: boolean;
+  handsome: boolean;
 }
 
 interface Girl {
-	cute: boolean;
+  cute: boolean;
 }
 
 type Person = Boy & Girl;

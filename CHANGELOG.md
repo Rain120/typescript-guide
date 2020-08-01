@@ -18,6 +18,7 @@
 * intersection & union types; utility version; typescripts reference ([06fc3de](https://github.com/Rain120/typescript-guide/commit/06fc3de9cd11890024e172ee69b480924ddad295))
 * plop auto create docs model ([1f5a2f9](https://github.com/Rain120/typescript-guide/commit/1f5a2f94bbd7a430bbfbb48a09718b8ec9d14190))
 * plop new docs & update alias; update plop template; add docs catalog & folders ([dd5326a](https://github.com/Rain120/typescript-guide/commit/dd5326ac2934069c2cb10238c674e4dc86844274))
+* refactor types(intersection, union, guard) to advanced types ([bde41ab](https://github.com/Rain120/typescript-guide/commit/bde41ab8e61ae59f21c907c7a1a86e932ee71f31))
 * ts basic type; update logo; guide; add editorconfig ([c0b6eb2](https://github.com/Rain120/typescript-guide/commit/c0b6eb272ab4d87706902cdda365230e507b860b))
 * ts operator; compile config; fix: playground frame width bug ([f2bcaa0](https://github.com/Rain120/typescript-guide/commit/f2bcaa05bfdf574037ec54ed3e651ce1d1353b5c))
 * type assertion ([f77f51c](https://github.com/Rain120/typescript-guide/commit/f77f51c574f036d6079742eca8f8affa7b06f617))

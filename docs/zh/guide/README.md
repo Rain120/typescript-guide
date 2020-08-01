@@ -42,11 +42,13 @@ Learning all about the base of Typescript, and practice it
 
 - [x] [Type Assertion](../type-assertion/README.md)
 
-- [x] [Intersection Types](../intersection-types/README.md)
+- [x] [Advanced Types](../advanced-types/README.md)
 
-- [x] [Union Types](../union-types/README.md)
+	- [x] [Intersection Types](../advanced-types/intersection-types/README.md)
 
-- [ ] [Type Guard](../type-guard/README.md)
+	- [x] [Union Types](../advanced-types/union-types/README.md)
+
+	- [ ] [Type Guard](../advanced-types/type-guard/README.md)
 
 - [ ] [Array](../array/README.md)
 
