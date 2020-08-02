@@ -46,7 +46,7 @@ interface Profile {
 
 - 使用属性用于 **可选的属性访问**
 
-**?.** 只会检查其左侧的值是否为 `null` 或 `undefined`，而不检查任何后续属性。
+**?.** 只会检查其左侧的值是否为 `null` 或 `undefined`, 而不检查任何后续属性。
 
 ```ts
 const x = foo?.bar.baz
@@ -66,7 +66,7 @@ const x = (foo === null || foo === undefined)
 
 **??**
 
-**空值合并运算符** 是即将推出的另一个 `ECMAScript 2020`功能，它与可选的链接并驾齐驱。
+**空值合并运算符** 是即将推出的另一个 `ECMAScript 2020`功能, 它与可选的链接并驾齐驱。
 
 ```ts
 let x = foo ?? bar();
@@ -82,7 +82,7 @@ let x = (foo !== null && foo !== undefined)
 
 ## + -
 
-`TypeScript 2.8` 为映射类型增加了增加或移除特定修饰符的能力。 特别地，映射类型里的`readonly`或`?`属性修饰符现在可以使用`+`或`-`前缀，来表示修饰符是添加还是移除。
+`TypeScript 2.8` 为映射类型增加了增加或移除特定修饰符的能力。 特别地, 映射类型里的`readonly`或`?`属性修饰符现在可以使用`+`或`-`前缀, 来表示修饰符是添加还是移除。
 
 ```ts
 type MutableRequired<T> = {

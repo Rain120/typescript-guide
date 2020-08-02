@@ -20,7 +20,7 @@ const pkgName = pkg.name || docsPath.trim().split('/').slice(-1).toString();
 
 /**
  * @description 特殊处理文档顺序
- * alias 的顺序决定了文档菜单的目录顺序，子菜单亦可
+ * alias 的顺序决定了文档菜单的目录顺序, 子菜单亦可
  * Eg:
  * p2: p2
  * p1: p1

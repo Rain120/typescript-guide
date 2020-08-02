@@ -104,7 +104,7 @@ var Gender;
 
 [Go Demo](https://www.typescriptlang.org/play?#code/KYOwrgtgBA4qAmwBOUDeAoKUBiBRAsgIIAyuANJlEaRQL5A)
 
-默认情况下，从`0`开始为元素编号。 你也可以手动的指定成员的数值。比如
+默认情况下, 从`0`开始为元素编号。 你也可以手动的指定成员的数值。比如
 
 ```ts
 enum Gender {
@@ -130,7 +130,7 @@ var Gender;
 
 ### 字符串枚举
 
-在一个字符串枚举里，每个成员都必须用字符串字面量，或另外一个字符串枚举成员进行初始化。
+在一个字符串枚举里, 每个成员都必须用字符串字面量, 或另外一个字符串枚举成员进行初始化。
 
 ```ts
 enum Gender {
@@ -194,7 +194,7 @@ var Enum;
 
 有时候, 我们会想要为那些在编程阶段还不清楚类型的变量指定一个类型, 这些值可能来自于动态的内容。
 
-在 `TypeScript` 中，任何类型都可以被归为 `any` 类型。这让 `any`类型成为了类型系统的 [**顶级类型**](https://en.wikipedia.org/wiki/Top_type)(也被称作 **全局超级类型**)。
+在 `TypeScript` 中, 任何类型都可以被归为 `any` 类型。这让 `any`类型成为了类型系统的 [**顶级类型**](https://en.wikipedia.org/wiki/Top_type)(也被称作 **全局超级类型**)。
 
 使用 `any` 类型的变量能够兼容所有的类型, `typescript` 将不会对他做任何类型检查, 所以我们将无法对其做类型保护, 这样我们就会很容易地编写类型正确, 但在运行时有问题的代码。
 
@@ -215,9 +215,9 @@ value = new TypeError();  // OK
 value = Symbol("type");   // OK
 ```
 
-`any`类型本质上是类型系统的一个逃逸舱。作为开发者，这给了我们很大的自由：TypeScript允许我们对 `any`类型的值执行任何操作，而无需事先执行任何形式的检查。
+`any`类型本质上是类型系统的一个逃逸舱。作为开发者, 这给了我们很大的自由：TypeScript允许我们对 `any`类型的值执行任何操作, 而无需事先执行任何形式的检查。
 
-在上述例子中，变量 `value`被定义成类型 `any`。也是因此，`TypeScript` 认为以下所有操作都是类型正确的：
+在上述例子中, 变量 `value`被定义成类型 `any`。也是因此, `TypeScript` 认为以下所有操作都是类型正确的：
 
 ```ts
 let value: any;
@@ -229,13 +229,13 @@ new value();    // OK
 value[0][1];    // OK
 ```
 
-这许多场景下，这样的机制都太宽松了。使用`any`类型，可以很容易地编写类型正确但是执行异常的代码。如果我们使用 `any`类型，就无法享受 `TypeScript` 大量的保护机制。
+这许多场景下, 这样的机制都太宽松了。使用`any`类型, 可以很容易地编写类型正确但是执行异常的代码。如果我们使用 `any`类型, 就无法享受 `TypeScript` 大量的保护机制。
 
 ## Unknown 类型
 
-`TypeScript 3.0` 引入了新的`unknown` 类型，它是 `any` 类型对应的安全类型。
+`TypeScript 3.0` 引入了新的`unknown` 类型, 它是 `any` 类型对应的安全类型。
 
-`unknown` 和 `any` 的主要区别是 `unknown` 类型会更加严格：在对 `unknown` 类型的值执行大多数操作之前，我们必须进行某种形式的检查。而在对 `any` 类型的值执行操作之前，我们不必进行任何检查。
+`unknown` 和 `any` 的主要区别是 `unknown` 类型会更加严格：在对 `unknown` 类型的值执行大多数操作之前, 我们必须进行某种形式的检查。而在对 `any` 类型的值执行操作之前, 我们不必进行任何检查。
 
 ```ts
 let value: any;
@@ -269,7 +269,7 @@ let value7: any[] = value;     // Error
 let value8: Function = value;  // Error
 ```
 
-`unknown`类型只能被赋值给 `any`类型和 `unknown`类型本身。直观的说，这是有道理的：只有能够保存任意类型值的容器才能保存 `unknown`类型的值。毕竟我们不知道变量 `value`中存储了什么类型的值。
+`unknown`类型只能被赋值给 `any`类型和 `unknown`类型本身。直观的说, 这是有道理的：只有能够保存任意类型值的容器才能保存 `unknown`类型的值。毕竟我们不知道变量 `value`中存储了什么类型的值。
 
 现在让我们看看当我们尝试对类型为 `unknown`的值执行操作时会发生什么。以下是我们之前看过的相同操作：
 
@@ -283,9 +283,9 @@ new value();    // Error
 value[0][1];    // Error
 ```
 
-将 `value`变量类型设置为 `unknown`后，这些操作都不再被认为是类型正确的。通过改变 `any`类型到 `unknown`类型，我们的默认设置从允许一切翻转式的改变成了几乎什么都不允许。
+将 `value`变量类型设置为 `unknown`后, 这些操作都不再被认为是类型正确的。通过改变 `any`类型到 `unknown`类型, 我们的默认设置从允许一切翻转式的改变成了几乎什么都不允许。
 
-这是 `unknown`类型的主要价值主张：`TypeScript` 不允许我们对类型为 `unknown`的值执行任意操作。相反，我们必须首先执行某种类型检查以缩小我们正在使用的值的类型范围。
+这是 `unknown`类型的主要价值主张：`TypeScript` 不允许我们对类型为 `unknown`的值执行任意操作。相反, 我们必须首先执行某种类型检查以缩小我们正在使用的值的类型范围。
 
 ## Null & Undefined 类型
 

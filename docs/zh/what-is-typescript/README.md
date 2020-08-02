@@ -8,9 +8,9 @@
 |---------|---------|
 |静态语言|动态语言|
 |一种面向对象的编程语言, 需要TypeScript编译器才能转换为JavaScript文件|一种脚本语言, 不需要编译器, 可以在浏览器上运行。|
-|强类型，支持静态和动态类型|弱类型，没有静态类型选项|
+|强类型, 支持静态和动态类型|弱类型, 没有静态类型选项|
 |可以导入文件和模块|不允许支持模块|
-|支持类，继承，接口和修饰符|不支持类，继承，接口和修饰符|
+|支持类, 继承, 接口和修饰符|不支持类, 继承, 接口和修饰符|
 
 ## 为什么使用TypeScript
 
@@ -64,7 +64,7 @@ tsc hello_world.ts
 
 ## 学习资料
 
-[《TypeScript Deep Dive》](https://basarat.gitbook.io/typescript/) 是一本很好的开源书，从基础到深入，很全面的阐述了 `TypeScript` 的各种魔法，不管你是新手，还是老鸟，它都将适应你。此外，它不同于 `TypeScript` 官方给出的文档（当然 `TypeScript` 给出的文档是很好的），在此书中，结合实际应用下的场景用例，你将能更深入的理解 `TypeScript`。[中文版](https://jkchao.github.io/typescript-book-chinese/)
+[《TypeScript Deep Dive》](https://basarat.gitbook.io/typescript/) 是一本很好的开源书, 从基础到深入, 很全面的阐述了 `TypeScript` 的各种魔法, 不管你是新手, 还是老鸟, 它都将适应你。此外, 它不同于 `TypeScript` 官方给出的文档（当然 `TypeScript` 给出的文档是很好的）, 在此书中, 结合实际应用下的场景用例, 你将能更深入的理解 `TypeScript`。[中文版](https://jkchao.github.io/typescript-book-chinese/)
 
 [awesome-typescript](https://github.com/semlinker/awesome-typescript) 收集了很多 `Typescript` 的相关学习资料。
 
