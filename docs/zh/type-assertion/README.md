@@ -43,7 +43,21 @@ const mine = 'Rain120';
 
 ## ! 后缀类型断言
 
+我们知道 `Nullable` 类型实质上是 [**联合类型**](../advanced-types/union-types/README.md), 那么同样面临类型缩窄的问题。对此, `TypeScript` 也提供了符合直觉的类型保护。
 
+自动类型保护无法处理的场景可以通过 `!` 后缀来去除 `Nullable`部分, 即 `null | undefined`。
+
+```ts
+interface Profile {
+  name: string;
+  age?: number | string;
+}
+function getParentInfo(profile: Profile): number | string {
+  return profile!.age!;
+}
+```
+
+更多操作符相关, 请到 [Here](../operator/README.md)
 
 ## 类型断言 与 类型转换
 

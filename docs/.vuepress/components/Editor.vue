@@ -102,7 +102,7 @@ export default {
 			const el = document.querySelector('#monaco');
 			monaco.editor.create(el, {
 				width: '100%',
-				value: this.value,
+				value: this.value + '\n\n\n\n\n\n',
 				theme: this.theme,
 				fontSize: 16,
 				language: 'typescript',

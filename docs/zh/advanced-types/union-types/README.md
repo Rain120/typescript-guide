@@ -6,7 +6,25 @@
 
 ## Nullable 与 联合类型
 
+```ts
+let name: string = 'Rain120'
 
+name = null;
+name = undefined;
+
+console.log(name.toString())
+
+// ====>
+
+let name: string | null | undefined;
+
+```
+
+更多尝试 [Here](https://www.typescriptlang.org/play/#code/DYUwLgBAdghgtiAXBAzmATgSygcwgXggHIAlGbARgCYAGIgKHtgQOgFdhgBuJ+EVtlAAmIAGbYQQnvQDGAeygo5oAHTA5OABTMQKsHIDKGbFoCUpoA)
+
+从类型上看, `Nullable` 类型相当于原类型与`null | undefined`组成的联合类型, 从上示例意味着, **类型检查** 并不可靠，针对空类型的 **潜在问题**, `TypeScript` 提供了`--strictNullChecks`选项, 开启之后会严格检查空类型。
+
+更多 `Nullable` 相关请到 [Here](../nullable/README.md)
 
 ## 使用
 

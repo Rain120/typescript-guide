@@ -50,6 +50,8 @@ Learning all about the base of Typescript, and practice it
 
 	- [ ] [Type Guard](../advanced-types/type-guard/README.md)
 
+	- [x] [Nullable](../advanced-types/nullable/README.md)
+
 - [ ] [Array](../array/README.md)
 
 - [ ] [Function](../function/README.md)

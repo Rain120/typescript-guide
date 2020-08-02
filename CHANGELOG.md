@@ -1,4 +1,4 @@
-# 1.0.0 (2020-08-01)
+# 1.0.0 (2020-08-02)
 
 
 ### Bug Fixes
@@ -7,6 +7,7 @@
 * monaco editor show normal modal and can edit ([da7a4c9](https://github.com/Rain120/typescript-guide/commit/da7a4c9316b6bf245ceccea93f3518ddaf810f80))
 * nested sub-level directories path ([c6830ac](https://github.com/Rain120/typescript-guide/commit/c6830ac37ada02270874d8d3d7ab00fade02e51d))
 * README OKR path not found ([5d9739d](https://github.com/Rain120/typescript-guide/commit/5d9739d17602787fb8d1ad190d225fc572003920))
+* resolve advanced types path error ([8458a2c](https://github.com/Rain120/typescript-guide/commit/8458a2c6e2a22c53f387d2b53ba20f2c49e59d70))
 * update google analysis id ([2e1721b](https://github.com/Rain120/typescript-guide/commit/2e1721b7f5a7b671398f5d6ec2c094194c4229c0))
 
 

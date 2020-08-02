@@ -16,6 +16,7 @@
   "generics": "Typescript 泛型",
   "operator": "Typescript 运算符",
   "utility-types": "Typescript 使用工具类型",
+  "nullable": "Typescript Nullable",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
