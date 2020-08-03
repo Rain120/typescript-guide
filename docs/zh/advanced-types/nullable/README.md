@@ -1,8 +1,10 @@
 ## 定义
 
+:::theorem Nullable
 `TypeScript` 里空类型 `(void)` 有两种: `undefined` 与 `null`, 是 `(除never外)` 其它所有类型的子类型。
 
- 默认情况下, 类型检查器认为 `null`与 `undefined`可以赋值给任何类型。 `null`与 `undefined`是所有其它类型的一个有效值。
+默认情况下, 类型检查器认为 `null`与 `undefined`可以赋值给任何类型。 `null`与 `undefined`是所有其它类型的一个有效值。
+:::
 
 解决方式有两种:
 
