@@ -18,6 +18,7 @@
 * advanced types nullable; update union, assertion; others chores ([1b5936a](https://github.com/Rain120/typescript-guide/commit/1b5936aac1fe2c6363c90083231f66779b654a1e))
 * init typscript guide & add guide, introduction, base ([365b637](https://github.com/Rain120/typescript-guide/commit/365b637d872cc92c23a04c09788d50001ee46a73))
 * intersection & union types; utility version; typescripts reference ([06fc3de](https://github.com/Rain120/typescript-guide/commit/06fc3de9cd11890024e172ee69b480924ddad295))
+* keyword: is, keyof, in, typeof, instanceof; type guard; add vuepress plugin ([81f3b55](https://github.com/Rain120/typescript-guide/commit/81f3b5537f5aca20a4b10219d6cb216df2d51fea))
 * plop auto create docs model ([1f5a2f9](https://github.com/Rain120/typescript-guide/commit/1f5a2f94bbd7a430bbfbb48a09718b8ec9d14190))
 * plop new docs & update alias; update plop template; add docs catalog & folders ([dd5326a](https://github.com/Rain120/typescript-guide/commit/dd5326ac2934069c2cb10238c674e4dc86844274))
 * refactor types(intersection, union, guard) to advanced types ([bde41ab](https://github.com/Rain120/typescript-guide/commit/bde41ab8e61ae59f21c907c7a1a86e932ee71f31))

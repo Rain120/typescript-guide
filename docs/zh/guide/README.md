@@ -48,7 +48,7 @@ Learning all about the base of Typescript, and practice it
 
 	- [x] [Union Types](../advanced-types/union-types/README.md)
 
-	- [ ] [Type Guard](../advanced-types/type-guard/README.md)
+	- [x] [Type Guard](../advanced-types/type-guard/README.md)
 
 	- [x] [Nullable](../advanced-types/nullable/README.md)
 
@@ -65,6 +65,18 @@ Learning all about the base of Typescript, and practice it
 - [ ] [Generics](../generics/README.md)
 
 - [x] [Operator](../operator/README.md)
+
+- [x] [Keyword](../keyword/README.md)
+
+	- [x] [is](../keyword/is/README.md)
+
+	- [x] [keyof](../keyword/keyof/README.md)
+
+	- [x] [in](../keyword/in/README.md)
+
+	- [x] [typeof](../keyword/typeof/README.md)
+
+	- [x] [instanceof](../keyword/instanceof/README.md)
 
 - [x] [Utility Types](./docs/zh/utility-types/README.md)
 
