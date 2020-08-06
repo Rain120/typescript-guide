@@ -51,9 +51,9 @@ Learning all about the base of Typescript, and practice it
 
 	- [x] [Nullable](./docs/zh/advanced-types/nullable/README.md)
 
-- [ ] [Array](./docs/zh/array/README.md)
+- [x] [Array](./docs/zh/array/README.md)
 
-- [ ] [Function](./docs/zh/function/README.md)
+- [x] [Function](./docs/zh/function/README.md)
 
 - [ ] [Decorators](./docs/zh/decorators/README.md)
 

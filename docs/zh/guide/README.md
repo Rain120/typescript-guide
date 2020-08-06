@@ -52,9 +52,9 @@ Learning all about the base of Typescript, and practice it
 
 	- [x] [Nullable](../advanced-types/nullable/README.md)
 
-- [ ] [Array](../array/README.md)
+- [x] [Array](../array/README.md)
 
-- [ ] [Function](../function/README.md)
+- [x] [Function](../function/README.md)
 
 - [ ] [Decorators](../decorators/README.md)
 

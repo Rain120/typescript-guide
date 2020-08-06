@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-03-04 17:43:25
  * @LastEditors: Rainy
- * @LastEditTime: 2020-07-29 19:49:51
+ * @LastEditTime: 2020-08-03 20:35:29
  */
 
 const path = require('path');
@@ -16,27 +16,27 @@ const last = ['tips', 'faqs'];
  * @param {string} key modal name
  * @param {string} value modal alias
  */
-function addAlias(key, value) {
+function addAlias({ name, alias }) {
 	const data = fs.readFileSync(aliasPath, 'utf-8');
 	const content = JSON.parse(data);
-	if (!value) {
-		value = key;
+	if (!alias) {
+		alias = name;
 	}
-	if (!content[key]) {
-		content[key] = value;
+	if (!content[name]) {
+		content[name] = alias;
 	} else {
-		throw new Error('The key is exist');
+		throw new Error('The name is exist');
 	}
 
 	const alias = {};
-	Object.keys(content).forEach(key => {
-		if (!last.includes(key)) {
-			alias[key] = content[key];
+	Object.keys(content).forEach(name => {
+		if (!last.includes(name)) {
+			alias[name] = content[name];
 		}
 	});
 
-	last.forEach(key => {
-		alias[key] = content[key];
+	last.forEach(name => {
+		alias[name] = content[name];
 	});
 
 	const file = JSON.stringify(alias, null, 2);
@@ -67,7 +67,7 @@ module.exports = plop => {
       }
     ],
     actions: answer => {
-      addAlias(answer.name, answer.alias);
+      addAlias(answer);
       return [
         {
           type: 'add',
