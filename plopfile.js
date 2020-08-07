@@ -2,7 +2,7 @@
  * @Author: Rainy
  * @Date: 2020-03-04 17:43:25
  * @LastEditors: Rainy
- * @LastEditTime: 2020-08-03 20:35:29
+ * @LastEditTime: 2020-08-06 19:34:34
  */
 
 const path = require('path');
@@ -28,18 +28,18 @@ function addAlias({ name, alias }) {
 		throw new Error('The name is exist');
 	}
 
-	const alias = {};
+	const value = {};
 	Object.keys(content).forEach(name => {
 		if (!last.includes(name)) {
-			alias[name] = content[name];
+			value[name] = content[name];
 		}
 	});
 
 	last.forEach(name => {
-		alias[name] = content[name];
+		value[name] = content[name];
 	});
 
-	const file = JSON.stringify(alias, null, 2);
+	const file = JSON.stringify(value, null, 2);
 
 	fs.writeFileSync(aliasPath, new Buffer(file))
 }

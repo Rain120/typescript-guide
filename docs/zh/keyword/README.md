@@ -14,6 +14,10 @@ Typescript 常用关键字解析和使用。
 
 [TypeScript instanceof 关键字](./instanceof/README.md)
 
+[TypeScript entends 关键字](./entends/README.md)
+
+[TypeScript implements 关键字](./implements/README.md)
+
 ## 参考资料
 
 [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)

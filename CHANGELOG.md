@@ -1,4 +1,4 @@
-# 1.0.0 (2020-08-06)
+# 1.0.0 (2020-08-07)
 
 
 ### Bug Fixes
@@ -16,6 +16,7 @@
 * add test & editor at template and docs ([19faa8a](https://github.com/Rain120/typescript-guide/commit/19faa8a69ce121ba3adeaaaa4eefbdba64bf0381))
 * add tips, faqs folder; how to write docs md ([ff42474](https://github.com/Rain120/typescript-guide/commit/ff42474843622fcd2f6bb4ad13ea075934c039bc))
 * advanced types nullable; update union, assertion; others chores ([1b5936a](https://github.com/Rain120/typescript-guide/commit/1b5936aac1fe2c6363c90083231f66779b654a1e))
+* function ([5dba78c](https://github.com/Rain120/typescript-guide/commit/5dba78cd2eb6d18c70c4524ae328f4514c5eb1dd))
 * init typscript guide & add guide, introduction, base ([365b637](https://github.com/Rain120/typescript-guide/commit/365b637d872cc92c23a04c09788d50001ee46a73))
 * intersection & union types; utility version; typescripts reference ([06fc3de](https://github.com/Rain120/typescript-guide/commit/06fc3de9cd11890024e172ee69b480924ddad295))
 * keyword: is, keyof, in, typeof, instanceof; type guard; add vuepress plugin ([81f3b55](https://github.com/Rain120/typescript-guide/commit/81f3b5537f5aca20a4b10219d6cb216df2d51fea))

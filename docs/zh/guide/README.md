@@ -78,6 +78,10 @@ Learning all about the base of Typescript, and practice it
 
 	- [x] [instanceof](../keyword/instanceof/README.md)
 
+	- [x] [extends](../keyword/extends/README.md)
+	
+	- [x] [implements](../keyword/implements/README.md)
+	
 - [x] [Utility Types](./docs/zh/utility-types/README.md)
 
 - [ ] [Tips](../tips/README.md)

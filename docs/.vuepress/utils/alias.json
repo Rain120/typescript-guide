@@ -23,6 +23,8 @@
   "instanceof": "instanceof",
   "operator": "Typescript 运算符",
   "utility-types": "Typescript 使用工具类型",
+  "extends": "extends",
+  "implements": "implements",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
