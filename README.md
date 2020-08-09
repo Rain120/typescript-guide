@@ -27,6 +27,66 @@ Welcome to the Typescript Guide.
 ## ✍ Why am I doing this?
 
 Write documents for how to easily use typescript.
+## 🍾 Objective Key Result (OKR)
+
+### Objective
+
+Learning all about the base of Typescript, and practice it
+
+### Key Result
+
+- [x] [Compile Config](./docs/zh/compile-config/README.md)
+
+- [x] [Basic](./docs/zh/basic/README.md)
+
+- [x] [Type Assertion](./docs/zh/advanced-types/type-assertion/README.md)
+
+- [x] [Advanced Types](./docs/zh/advanced-types/README.md)
+
+	- [x] [Intersection Types](./docs/zh/advanced-types/intersection-types/README.md)
+
+	- [x] [Union Types](./docs/zh/advanced-types/union-types/README.md)
+
+	- [x] [Type Guard](./docs/zh/advanced-types/type-guard/README.md)
+
+	- [x] [Nullable](./docs/zh/advanced-types/nullable/README.md)
+
+- [x] [Array](./docs/zh/array/README.md)
+
+- [x] [Function](./docs/zh/function/README.md)
+
+- [ ] [Decorators](./docs/zh/decorators/README.md)
+
+- [ ] [Class](./docs/zh/class/README.md)
+
+- [ ] [Interface](./docs/zh/interface/README.md)
+
+- [ ] [Generics](./docs/zh/generics/README.md)
+
+- [x] [Operator](./docs/zh/operator/README.md)
+
+- [x] [Keyword](./docs/zh/keyword/README.md)
+
+	- [x] [is](./docs/zh/is/README.md)
+
+	- [x] [keyof](./docs/zh/keyof/README.md)
+
+	- [x] [in](./docs/zh/in/README.md)
+
+	- [x] [typeof](./docs/zh/typeof/README.md)
+
+	- [x] [instanceof](./docs/zh/instanceof/README.md)
+
+	- [x] [extends](./docs/zh/extends/README.md)
+	
+	- [x] [implements](./docs/zh/implements/README.md)
+	
+- [x] [Utility Types](./docs/zh/utility-types/README.md)
+
+- [ ] [Tips](./docs/zh/tips/README.md)
+
+- [ ] [FAQs](./docs/zh/faqs/README.md)
+
 
 <!-- ## 🔨 Usage
 

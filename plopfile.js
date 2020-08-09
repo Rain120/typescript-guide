@@ -2,32 +2,44 @@
  * @Author: Rainy
  * @Date: 2020-03-04 17:43:25
  * @LastEditors: Rainy
- * @LastEditTime: 2020-07-05 16:47:18
+ * @LastEditTime: 2020-08-06 19:34:34
  */
 
 const path = require('path');
 const fs = require('fs');
 
 const aliasPath = path.resolve('docs/.vuepress/utils/alias.json')
+const last = ['tips', 'faqs'];
 
 /**
  *
  * @param {string} key modal name
  * @param {string} value modal alias
  */
-function addAlias(key, value) {
+function addAlias({ name, alias }) {
 	const data = fs.readFileSync(aliasPath, 'utf-8');
 	const content = JSON.parse(data);
-	if (!value) {
-		value = key;
+	if (!alias) {
+		alias = name;
 	}
-	if (!content[key]) {
-		content[key] = value;
+	if (!content[name]) {
+		content[name] = alias;
 	} else {
-		throw new Error('The key is exist');
+		throw new Error('The name is exist');
 	}
 
-	const file = JSON.stringify(content, null, 2);
+	const value = {};
+	Object.keys(content).forEach(name => {
+		if (!last.includes(name)) {
+			value[name] = content[name];
+		}
+	});
+
+	last.forEach(name => {
+		value[name] = content[name];
+	});
+
+	const file = JSON.stringify(value, null, 2);
 
 	fs.writeFileSync(aliasPath, new Buffer(file))
 }
@@ -55,7 +67,7 @@ module.exports = plop => {
       }
     ],
     actions: answer => {
-      addAlias(answer.name, answer.alias);
+      addAlias(answer);
       return [
         {
           type: 'add',

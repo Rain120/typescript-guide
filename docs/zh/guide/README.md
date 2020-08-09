@@ -28,6 +28,69 @@ Welcome to the Typescript Guide.
 
 Write documents for how to easily use typescript.
 
+## 🍾 Objective Key Result (OKR)
+
+### Objective
+
+Learning all about the base of Typescript, and practice it
+
+### Key Result
+
+- [x] [Compile Config](../compile-config/README.md)
+
+- [x] [Basic](../basic/README.md)
+
+- [x] [Type Assertion](../type-assertion/README.md)
+
+- [x] [Advanced Types](../advanced-types/README.md)
+
+	- [x] [Intersection Types](../advanced-types/intersection-types/README.md)
+
+	- [x] [Union Types](../advanced-types/union-types/README.md)
+
+	- [x] [Type Guard](../advanced-types/type-guard/README.md)
+
+	- [x] [Nullable](../advanced-types/nullable/README.md)
+
+- [x] [Array](../array/README.md)
+
+- [x] [Function](../function/README.md)
+
+- [ ] [Decorators](../decorators/README.md)
+
+- [ ] [Class](../class/README.md)
+
+- [ ] [Interface](../interface/README.md)
+
+- [ ] [Generics](../generics/README.md)
+
+- [x] [Operator](../operator/README.md)
+
+- [x] [Keyword](../keyword/README.md)
+
+	- [x] [is](../keyword/is/README.md)
+
+	- [x] [keyof](../keyword/keyof/README.md)
+
+	- [x] [in](../keyword/in/README.md)
+
+	- [x] [typeof](../keyword/typeof/README.md)
+
+	- [x] [instanceof](../keyword/instanceof/README.md)
+
+	- [x] [extends](../keyword/extends/README.md)
+	
+	- [x] [implements](../keyword/implements/README.md)
+	
+- [x] [Utility Types](./docs/zh/utility-types/README.md)
+
+- [ ] [Tips](../tips/README.md)
+
+- [ ] [FAQs](../faqs/README.md)
+
+
+⌨️ To be Continue...
+
 <!-- ## 🔨 Usage
 
 ⌨️ To be Continue... -->
