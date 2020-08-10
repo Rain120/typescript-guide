@@ -39,7 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run changelog && npm run deploy && git add . && lint-staged",
+      "pre-commit": "npm run deploy && git add . && lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
