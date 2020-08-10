@@ -25,6 +25,3 @@ jobs:
           	BRANCH: gh-pages
           	FOLDER: docs/.vuepress/dist
           	BUILD_SCRIPT: npm run build
-					
-					
-
