@@ -65,26 +65,26 @@ module.exports = {
   // markdown
   markdown: {
     lineNumbers: true,
-	/**
-	 * 解决一个 "无实质内容的标题导致 permalink 出错" 的问题,
-	 * 目前发现有若干个有点问题的, 如 `!`
-	 *
-	 * @todo: 如果开始有多类似的个例, 可以引入特殊的 "heading anchor" 格式, 并统一处理
-	 *
-	 * 参考 : http://caibaojian.com/vuepress/config/#markdown-slugify
-	 *
-	 * @param {string} heading
-	 * @return {string|*|string}
-	 */
-	slugify: (heading) => {
-      const originResult = slugify(heading)
+		/**
+		 * 解决一个 "无实质内容的标题导致 permalink 出错" 的问题,
+		 * 目前发现有若干个有点问题的, 如 `!`
+		 *
+		 * @todo: 如果开始有多类似的个例, 可以引入特殊的 "heading anchor" 格式, 并统一处理
+		 *
+		 * 参考 : http://caibaojian.com/vuepress/config/#markdown-slugify
+		 *
+		 * @param {string} heading
+		 * @return {string|*|string}
+		 */
+		slugify: (heading) => {
+				const originResult = slugify(heading)
 
-	  const trimmedHeading = (heading || '').trim()
-	  if (trimmedHeading in SPECIAL_HEADINGS) {
-	    return SPECIAL_HEADINGS[(heading || '').trim()] || ''
-	  }
-	  return originResult
-	},
+			const trimmedHeading = (heading || '').trim()
+			if (trimmedHeading in SPECIAL_HEADINGS) {
+				return SPECIAL_HEADINGS[(heading || '').trim()] || ''
+			}
+			return originResult
+		},
     anchor: {
       permalink: true,
     },
