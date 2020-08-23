@@ -59,6 +59,8 @@ Learning all about the base of Typescript, and practice it
 
 - [ ] [Class](./docs/zh/class/README.md)
 
+- [x] [内置对象](./docs/zh/built-in-objects/README.md)
+
 - [ ] [Interface](./docs/zh/interface/README.md)
 
 - [ ] [Generics](./docs/zh/generics/README.md)

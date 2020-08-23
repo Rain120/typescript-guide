@@ -12,6 +12,7 @@
   "array": "Typescript 数组",
   "function": "TypeScript 函数",
   "class": "Typescript 类",
+  "built-in-objects": "Typescript 内置对象",
   "decorators": "Typescript 装饰器",
   "interface": "Typescript 接口",
   "generics": "Typescript 泛型",
