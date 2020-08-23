@@ -10,7 +10,7 @@
   "main": "index.js",
   "scripts": {
     "lint-staged": "lint-staged",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add .",
     "plop": "./node_modules/.bin/plop",
     "docs": "npm run plop docs",
     "docs:dev": "vuepress dev docs",
@@ -39,7 +39,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged",
+      "pre-commit": "npm run changelog && lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
