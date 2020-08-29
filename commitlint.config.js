@@ -16,7 +16,8 @@ module.exports = {
         "ci",
         "chore",
         "revert",
-        "config"
+        "config",
+        "wip"
       ]
     ],
     "subject-full-stop": [0, "never"],

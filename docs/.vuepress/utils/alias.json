@@ -26,6 +26,7 @@
   "utility-types": "Typescript 使用工具类型",
   "extends": "extends",
   "implements": "implements",
+  "infer": "infer",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
