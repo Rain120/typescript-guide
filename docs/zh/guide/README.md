@@ -83,6 +83,8 @@ Learning all about the base of Typescript, and practice it
 	- [x] [extends](../keyword/extends/README.md)
 	
 	- [x] [implements](../keyword/implements/README.md)
+
+	- [ ] [infer](../keyword/infer/README.md)
 	
 - [x] [Utility Types](./docs/zh/utility-types/README.md)
 

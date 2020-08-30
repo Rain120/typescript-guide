@@ -18,6 +18,8 @@ Typescript 常用关键字解析和使用。
 
 [TypeScript implements 关键字](./implements/README.md)
 
+[TypeScript infer 关键字](./infer/README.md)
+
 ## 参考资料
 
 [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
