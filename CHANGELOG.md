@@ -17,6 +17,7 @@
 * remove pre-commit changelog ([a8da639](https://github.com/Rain120/typescript-guide/commit/a8da6392c5c11ccb7148803cebe96a2068e873f5))
 * remove pre-commit deploy ([1d5830a](https://github.com/Rain120/typescript-guide/commit/1d5830ae9c4a2e6a6b83a573f9aa51e881b77ca7))
 * resolve advanced types path error ([8458a2c](https://github.com/Rain120/typescript-guide/commit/8458a2c6e2a22c53f387d2b53ba20f2c49e59d70))
+* the math logic description about intersection and union which at advanced types ([9bcc637](https://github.com/Rain120/typescript-guide/commit/9bcc637024767a71b0021c9a1f006fd3392e7ece))
 * update google analysis id ([2e1721b](https://github.com/Rain120/typescript-guide/commit/2e1721b7f5a7b671398f5d6ec2c094194c4229c0))
 
 

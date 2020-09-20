@@ -1,4 +1,4 @@
-## 定义
+## 定义 <Badge text='WIP' type='warning' />
 
 **接口** 是 `Typescript` 中一个很重要的概念, 主要是对类型的行为进行抽象, 描述, 并进行类型检查
 
