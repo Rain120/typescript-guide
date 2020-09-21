@@ -8,6 +8,12 @@
 - 不必写多条函数重载, 冗长的联合类型声明, 增强代码的可读性
 - 灵活控制类型之间的约束
 
+## 泛型约束
+
+有时候我们希望限制每个类型变量**接受的类型数量**, 这就是**泛型约束**。
+
+我们可以使用 `,` 号来分隔多种约束类型, 比如: `<T extends Length, Type2, Type3>`。
+
 ## 常见的一些泛型变量含义
 
 - T (Type): 表示一个 `TypeScript` 类型
@@ -60,3 +66,5 @@ function validator<T>(arg: T): T {
 [TypeScript Spec](https://github.com/Microsoft/TypeScript/blob/master/doc/spec.md)
 
 [TypeScript进阶 之 重难点梳理](https://mp.weixin.qq.com/s/xWaVvh5lXG8Nb_U6bmJamw)
+
+[一文读懂 TypeScript 泛型及应用（ 7.8K字）](https://juejin.im/post/6844904184894980104)

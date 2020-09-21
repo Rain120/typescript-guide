@@ -1,6 +1,10 @@
 # IDE & Editor
 /.idea/
 
+# lock file
+*lock
+
+
 # Logs
 logs
 *.log
