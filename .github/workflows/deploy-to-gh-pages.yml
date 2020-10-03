@@ -20,7 +20,9 @@ jobs:
       
       - name: Install and Build
         run: |
-          npm ci
+          # npm ci 依赖 package-lock.json
+          # npm ci
+          npm install
           npm run docs:build
 
       - name: Deploy
