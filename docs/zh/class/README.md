@@ -6,7 +6,7 @@
 
 `TypeScript` 除了实现了所有 `ES6` 中的类的功能以外，还添加了一些新的用法。
 
-### 概念
+### 类的概念
 
 - 对象
 
@@ -251,7 +251,7 @@ console.log(mine)
 
 [Playground](https://www.typescriptlang.org/play?#code/MYGwhgzhAEBCD2BPaBvAUNaALMA7AJhPALYCmAXNAEbzwil4DcG0uYZlEALgE4CWuAObNMLYPFzceAV2Bd4PABRsO0KQMEAabHkIkK1WvTwBKVC0xcsfCADoVpaAF5W7UiMzQrN2zgJEyZx1-fQ8AXxY0AEgbAAldANJFMxQIiLRQSBgAWQFHUgAPLlJ-OCRzTDiE-WSKzx5SLmkeXC9rOz89MnC0dPFJLmhiPKDcUgB3aFyxxQByACUwAQBGACYABlntXmlSE2Z+onpbEHhBRWGxkyA)
 
-#### 多态
+### 多态
 
 ```ts
 export function trace(cities: any, prop?: string, enterBreakPoint?: boolean): void;
