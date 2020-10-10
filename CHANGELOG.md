@@ -32,6 +32,7 @@
 * function ([5dba78c](https://github.com/Rain120/typescript-guide/commit/5dba78cd2eb6d18c70c4524ae328f4514c5eb1dd))
 * github action deploy workflows ([a98f275](https://github.com/Rain120/typescript-guide/commit/a98f27562f0cf7e3a82b46fa95fba8c1f2cd678b))
 * github action deploy workflows ([ae5128e](https://github.com/Rain120/typescript-guide/commit/ae5128e2dd7521698a0b5f11f783f48d41022e12))
+* infer ([ddb4ae9](https://github.com/Rain120/typescript-guide/commit/ddb4ae96a8e669e266f7d76533e6f6c5660d3286))
 * init typscript guide & add guide, introduction, base ([365b637](https://github.com/Rain120/typescript-guide/commit/365b637d872cc92c23a04c09788d50001ee46a73))
 * intersection & union types; utility version; typescripts reference ([06fc3de](https://github.com/Rain120/typescript-guide/commit/06fc3de9cd11890024e172ee69b480924ddad295))
 * keyword with extends, implements ([a784b4e](https://github.com/Rain120/typescript-guide/commit/a784b4e23fd30c6a8cb754244e4fa1a2df6fb9ad))
