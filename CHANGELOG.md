@@ -1,4 +1,4 @@
-# 1.0.0 (2020-10-10)
+# 1.0.0 (2020-10-14)
 
 
 ### Bug Fixes
@@ -9,6 +9,7 @@
 * deploy workflows error ([048dbe1](https://github.com/Rain120/typescript-guide/commit/048dbe1c70e0f0ecb914d8f44a14629938fac157))
 * deploy workflows error ([6aa3dae](https://github.com/Rain120/typescript-guide/commit/6aa3dae982f03588a9b9f69b9f31dcdb67b0d14c))
 * deploy workflows error ([eeb7ab2](https://github.com/Rain120/typescript-guide/commit/eeb7ab2d0d7487b5a43249d0f0181083178961dd))
+* index.styl ([15af71e](https://github.com/Rain120/typescript-guide/commit/15af71e4e0cab90a610166fae201e60cfdf88daa))
 * Invalid workflow filed with deploy yml ([6c0d64a](https://github.com/Rain120/typescript-guide/commit/6c0d64a7dacbb38c8b34adcc4d74fbd56bb1e99c))
 * monaco editor build bug (cannot require async component) ([906f6e8](https://github.com/Rain120/typescript-guide/commit/906f6e8379efe762d76f16381b657e4752be4dd4))
 * monaco editor show normal modal and can edit ([da7a4c9](https://github.com/Rain120/typescript-guide/commit/da7a4c9316b6bf245ceccea93f3518ddaf810f80))

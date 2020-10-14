@@ -63,6 +63,7 @@
     "plop": "^2.6.0",
     "vuepress": "^1.5.2",
     "vuepress-plugin-awesome-gitalk": "^0.0.4",
-    "vuepress-plugin-container": "^2.1.4"
+    "vuepress-plugin-container": "^2.1.4",
+    "vuepress-plugin-mathjax": "^1.2.8"
   }
 }

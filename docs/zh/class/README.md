@@ -1,4 +1,4 @@
-## 定义 <Badge text='WIP' type='warning' />
+## 定义
 
 类（英语: `class`）在[**面向对象编程(oop)**](https://zh.wikipedia.org/zh-cn/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)中是一种面向对象计算机编程语言的构造, 是创建对象的蓝图, 描述了所创建的对象共同的属性和方法。
 
