@@ -1,4 +1,4 @@
-# 1.0.0 (2020-10-14)
+# 1.0.0 (2020-10-15)
 
 
 ### Bug Fixes
@@ -30,9 +30,10 @@
 * advanced types nullable; update union, assertion; others chores ([1b5936a](https://github.com/Rain120/typescript-guide/commit/1b5936aac1fe2c6363c90083231f66779b654a1e))
 * build in objects ([b62cd07](https://github.com/Rain120/typescript-guide/commit/b62cd07384f6423400d485bc3c4b68c6649c0ec2))
 * class ([78ff3cc](https://github.com/Rain120/typescript-guide/commit/78ff3ccf5e321f198777deb8fd20dc487add0bc0))
+* decorators; plugin with math latex ([4364958](https://github.com/Rain120/typescript-guide/commit/4364958b84092d08a312ea839e730de008d1847e))
 * function ([5dba78c](https://github.com/Rain120/typescript-guide/commit/5dba78cd2eb6d18c70c4524ae328f4514c5eb1dd))
-* github action deploy workflows ([a98f275](https://github.com/Rain120/typescript-guide/commit/a98f27562f0cf7e3a82b46fa95fba8c1f2cd678b))
 * github action deploy workflows ([ae5128e](https://github.com/Rain120/typescript-guide/commit/ae5128e2dd7521698a0b5f11f783f48d41022e12))
+* github action deploy workflows ([a98f275](https://github.com/Rain120/typescript-guide/commit/a98f27562f0cf7e3a82b46fa95fba8c1f2cd678b))
 * infer ([ddb4ae9](https://github.com/Rain120/typescript-guide/commit/ddb4ae96a8e669e266f7d76533e6f6c5660d3286))
 * init typscript guide & add guide, introduction, base ([365b637](https://github.com/Rain120/typescript-guide/commit/365b637d872cc92c23a04c09788d50001ee46a73))
 * intersection & union types; utility version; typescripts reference ([06fc3de](https://github.com/Rain120/typescript-guide/commit/06fc3de9cd11890024e172ee69b480924ddad295))
@@ -41,9 +42,9 @@
 * plop auto create docs model ([1f5a2f9](https://github.com/Rain120/typescript-guide/commit/1f5a2f94bbd7a430bbfbb48a09718b8ec9d14190))
 * plop new docs & update alias; update plop template; add docs catalog & folders ([dd5326a](https://github.com/Rain120/typescript-guide/commit/dd5326ac2934069c2cb10238c674e4dc86844274))
 * refactor types(intersection, union, guard) to advanced types ([bde41ab](https://github.com/Rain120/typescript-guide/commit/bde41ab8e61ae59f21c907c7a1a86e932ee71f31))
+* **heading:** 加入特殊 heading 的处理; ignore IDE 相关的文件 ([5e9070b](https://github.com/Rain120/typescript-guide/commit/5e9070baf3b36cc0e753b9bde3a8aaec58590314))
 * ts basic type; update logo; guide; add editorconfig ([c0b6eb2](https://github.com/Rain120/typescript-guide/commit/c0b6eb272ab4d87706902cdda365230e507b860b))
 * ts operator; compile config; fix: playground frame width bug ([f2bcaa0](https://github.com/Rain120/typescript-guide/commit/f2bcaa05bfdf574037ec54ed3e651ce1d1353b5c))
-* **heading:** 加入特殊 heading 的处理; ignore IDE 相关的文件 ([5e9070b](https://github.com/Rain120/typescript-guide/commit/5e9070baf3b36cc0e753b9bde3a8aaec58590314))
 * type assertion ([f77f51c](https://github.com/Rain120/typescript-guide/commit/f77f51c574f036d6079742eca8f8affa7b06f617))
 * update the okrs about guide ([a762e9c](https://github.com/Rain120/typescript-guide/commit/a762e9cb156ac0bcdbdc64f0b477e41c49fb9e8d))
 * utility types; alias set bottom title; update generics params; ([a306a25](https://github.com/Rain120/typescript-guide/commit/a306a25c512246ef230a445ccb4e292eef8b8a7d))
