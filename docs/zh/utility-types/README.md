@@ -102,14 +102,15 @@ type Readonly<T> = {
 #### 使用
 
 ```ts
+// Record
 interface Page {
-	title: string;
-	content: string;
+	title?: string | undefined;
+	content?: string | undefined;
 }
 
 type PageType = 'home' | 'about' | 'contact';
 
-const site: Record<Page, PageType> = {
+const site: Record<PageType, Page> = {
 	home: {
 		content: 'home'
 	},
@@ -118,7 +119,11 @@ const site: Record<Page, PageType> = {
 		content: 'about'
 	},
 	contact: {
-		content: 'contact'
+		title: 'contact',
+		// Error: Type '{ title: string; name: string; }' is not assignable to type 'Page'.
+		// Object literal may only specify known properties,
+		// and 'name' does not exist in type 'Page'.
+		name: 'Rain120'
 	},
 }
 
@@ -132,7 +137,7 @@ type Record<K extends keyof any, T> = {
 }
 ```
 
-[直接体验](https://www.typescriptlang.org/play/#code/PTAECUFMGMHsCcAmAoZBLAdgF0vAZgIbSSgAKBA5iQN7Kj2hZpYA2kAXKAM5byYUBuOgzjZI2Tjz4ZByAL6osATwAOJclQAqqkgF5QAcgAWsALaQDoAD6GCAI1gBXLJZsHRWIi6HJRPbswcEDAIiAA8GpAANGSUkNpqAHyg+rQMoCbmnGnpIrBiEoaZFsL0clGloPZOWNmV6UysQQbVzgYVuXkFtbYObZXllR5edZ30HuI97vme0C4DFQpAA)
+[直接体验](https://www.typescriptlang.org/play?#code/PTAECUFMGMHsCcAmAoAlgOwC6XgMwIbSSgAK+A5sQN7ICQmqmANpAPwBcoAzpvBuaAA+oAK7pEkXBkiIA3HThZIWDt178ho8ZOlzkAX2TJMATwAOxMpQAq54gF5QAcgAWsALaQnmp-gBGsCKY3sJOipiEwfLIijzcjJCcUHBIADxWkLYWADSkFJAAfKCONLRunpyltOHKmJyuHl50+tl0-oF1oFUMzInO7UFOrbTVsEpY9QPBzcPhkZV09Iws9XPQwa2gW9tbIKBZxE5UoD0ranzo5LKg6PgV5-zX+t6oXDewmKD4XFyo5Ld+FgnWAnOzODJOAB0yB2Oz2AHk-AArGCfJgJeD4Jigdz4EygMZMfFcCzQVC4fEAa3QsAA7uhQGZ4LALPAGJAuJtYbswPhxM5bp5vIhYBz3p9IAAPV6fDCgizg-JQxaCvpOcD4DAARgATAAGJwzAxAA)
 
 ### `Pick<T, K>`
 
