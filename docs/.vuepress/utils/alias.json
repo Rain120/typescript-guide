@@ -27,6 +27,7 @@
   "extends": "extends",
   "implements": "implements",
   "infer": "infer",
+  "blog": "博客",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }

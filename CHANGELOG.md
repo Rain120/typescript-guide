@@ -1,4 +1,4 @@
-# 1.0.0 (2020-12-10)
+# 1.0.0 (2020-12-30)
 
 
 ### Bug Fixes
@@ -21,6 +21,7 @@
 * the math logic description about intersection and union which at advanced types ([9bcc637](https://github.com/Rain120/typescript-guide/commit/9bcc637024767a71b0021c9a1f006fd3392e7ece))
 * update google analysis id ([2e1721b](https://github.com/Rain120/typescript-guide/commit/2e1721b7f5a7b671398f5d6ec2c094194c4229c0))
 * use commands install replace ci, because not package-lock.json ([64cfc90](https://github.com/Rain120/typescript-guide/commit/64cfc9003cb860bbdcb1855c971da4f1df1acc51))
+* utility types Record example error ([51ab092](https://github.com/Rain120/typescript-guide/commit/51ab092a23c030379f42f35920c0211d5f3b4cf2))
 
 
 ### Features
