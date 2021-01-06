@@ -1,4 +1,9 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-05)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-06)
+
+
+### Features
+
+* blog tips & pdfs & books ([310765f](https://github.com/Rain120/typescript-guide/commit/310765ffd4e95bcde3dc3a33c3ca7115f80d30f1))
 
 
 
