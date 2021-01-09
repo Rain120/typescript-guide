@@ -1,4 +1,9 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-06)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-09)
+
+
+### Bug Fixes
+
+* what is typescript for diff with js ([34b01a7](https://github.com/Rain120/typescript-guide/commit/34b01a71712e54e05a973c4b33b68cb5ec7a0b1e))
 
 
 ### Features
