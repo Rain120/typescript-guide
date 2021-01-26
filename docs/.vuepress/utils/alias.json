@@ -29,6 +29,7 @@
   "infer": "infer",
   "blog": "博客",
   "references": "tsconfig - references",
+  "typeconfig-module-target": "Typescript Module Target",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
