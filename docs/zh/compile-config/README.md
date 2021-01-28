@@ -96,6 +96,12 @@
 
 [编译选项](http://www.tslang.cn/docs/handbook/compiler-options.html)
 
+## 配置详解
+
+- [references](./references/README.md)
+
+- [tsconfig-module-target](./tsconfig-module-target/README.md)
+
 ## 参考资料
 
 [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
