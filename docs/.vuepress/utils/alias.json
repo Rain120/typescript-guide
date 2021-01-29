@@ -2,6 +2,7 @@
   "guide": "介绍",
   "what-is-typescript": "Typescript 是什么? ",
   "compile-config": "Typescript 编译配置",
+  "declaration": "Typescript 声明文件",
   "basic": "Typescript 基础类型",
   "advanced-types": "Typescript 高级类型",
   "type-assertion": "Typescript 类型断言",

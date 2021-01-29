@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-28)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-01-29)
 
 
 ### Bug Fixes
@@ -11,6 +11,7 @@
 * blog tips & pdfs & books ([310765f](https://github.com/Rain120/typescript-guide/commit/310765ffd4e95bcde3dc3a33c3ca7115f80d30f1))
 * faqs about tsconfig module target ([d40988c](https://github.com/Rain120/typescript-guide/commit/d40988c26b6c287dc72aac94a4c76b2f07cfa8cf))
 * tsconfig - references ([ad24a19](https://github.com/Rain120/typescript-guide/commit/ad24a197efd8703ab818458246d141b3adf5f226))
+* tsconfig module target; remove faqs module, target ([48d3e0f](https://github.com/Rain120/typescript-guide/commit/48d3e0f16f0957b08da24352ca73eb1e5770d382))
 
 
 
