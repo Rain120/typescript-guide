@@ -1,75 +1,114 @@
-## 定义 <Badge text='WIP' type='warning' />
+## 声明文件 <Badge text='WIP' type='warning' />
+
+当使用第三方库时，我们需要引用它的声明文件，才能获得对应的代码补全、接口提示等功能。
 
 ## 使用
 
-### `declare var` 声明全局变量
+### 直接使用第三方声明文件
 
-```ts
+我们在大不多数的时候，都可以通过 `npm` 安装 **社区或者第三方类库** 提供对应的声明模块即可。
+
+```sh
+npm install --save-dev @types/pkg-name
+
+// or
+
+yarn add --save-dev @types/pkg-name
 ```
 
-### `declare function` 声明全局方法
+::: tip 更多声明模块
+
+- 搜索 🔍 [here](https://www.typescriptlang.org/dt/search/)
+- 发布声明文件 🖥 [here](http://definitelytyped.org/)
+-  查看 👁👁 [here](https://github.com/DefinitelyTyped/DefinitelyTyped)
+:::
+### 自定义声明文件
+
+当然，社区不是万能的，有时候，有些声明文件需要我们自己自定义，那我们将如何书写呢？👇👇👇
+
+#### `declare (var | let | const)` 声明全局变量
 
 ```ts
+// JQuery.d.ts
+declare const JQuery: (selector: string) => any;
 ```
 
-### `declare class` 声明全局类
+#### `declare function` 声明全局方法
 
 ```ts
+declare function moduleLib (options: Options): void
 ```
 
-### `declare enum` 声明全局枚举类型
+#### `declare class` 声明全局类
 
 ```ts
+
 ```
 
-### `declare namespace` 声明（含有子属性的）全局对象
+#### `declare enum` 声明全局枚举类型
 
 ```ts
+
 ```
 
-### `interface` 和 `type` 声明全局类型
+#### `declare namespace` 声明（含有子属性的）全局对象
 
 ```ts
+
 ```
 
-### `export` 导出变量
+#### `interface` 和 `type` 声明全局类型
 
 ```ts
+
 ```
 
-### `export namespace` 导出（含有子属性的）对象
+#### `export` 导出变量
 
 ```ts
+
 ```
 
-### `export default ES6` 默认导出
+#### `export namespace` 导出（含有子属性的）对象
 
 ```ts
+
 ```
 
-### `export = commonjs` 导出模块
+#### `export default ES6` 默认导出
 
 ```ts
+
 ```
 
-### `export as namespace UMD` 库声明全局变量
+#### `export = commonjs` 导出模块
 
 ```ts
+
 ```
 
-### `declare global` 扩展全局变量
+#### `export as namespace UMD` 库声明全局变量
 
 ```ts
+
 ```
 
-### `declare module` 扩展模块
+#### `declare global` 扩展全局变量
 
 ```ts
+
 ```
 
-### `/// <reference />` 三斜线指令
+#### `declare module` 扩展模块
 
 ```ts
+
+```
+
+#### `/// <reference />` 三斜线指令
+
+```ts
+/// <reference path="JQuery.d.ts" />
 ```
 
 ### declare module vs declare namespace
@@ -142,3 +181,5 @@ declare namespace buffer {}
 [Is typescript Namespace feature deprecated?](https://michelenasti.com/2019/01/23/is-typescript-namespace-feature-deprecated.html)
 
 [Module vs Namespace - Import vs Require Typescript](https://stackoverflow.com/questions/38582352/module-vs-namespace-import-vs-require-typescript)
+
+[如何在TypeScript外部模块中使用命名空间?](https://stackoverflow.com/questions/30357634/how-do-i-use-namespaces-with-typescript-external-modules)
