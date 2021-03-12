@@ -114,7 +114,7 @@ console.log(getName);
 
 [非null断言运算符](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html#non-null-assertion-operator)
 
-## ?
+## ? 运算符
 
 - 定义属性用于 **可选属性定义**
 
@@ -129,7 +129,7 @@ interface Profile {
 
 - 使用属性用于 **可选的属性访问**
 
-### ?.
+### ?. 运算符
 
 **?.** 只会检查其左侧的值是否为 `null` 或 `undefined`, 而不检查任何后续属性。
 
@@ -149,7 +149,7 @@ const x = (foo === null || foo === undefined)
 
 [Announcing TypeScript 3.7 RC](https://devblogs.microsoft.com/typescript/announcing-typescript-3-7-rc/) -> [译文](https://www.infoq.cn/article/d95pGayR9s4eucUGKSFP)
 
-### ??
+### ?? 运算符
 
 **空值合并运算符** 是即将推出的另一个 `ECMAScript 2020`功能, 它与可选的链接并驾齐驱。
 
@@ -167,7 +167,7 @@ let x = (foo !== null && foo !== undefined)
 
 [nullish-coalescing](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#nullish-coalescing)
 
-## + -
+## + - 运算符
 
 `TypeScript 2.8` 为映射类型增加了增加或移除特定修饰符的能力。 特别地, 映射类型里的`readonly`或`?`属性修饰符现在可以使用`+`或`-`前缀, 来表示修饰符是添加还是移除。
 
@@ -182,7 +182,7 @@ type ReadonlyPartial<T> = {
 
 [改进对映射类型修饰符的控制](http://www.tslang.cn/docs/release-notes/typescript-2.8.html)
 
-## _
+## _ 运算符
 
 TypeScript 2.7支持ECMAScript的数字分隔符提案。 这个特性允许用户在数字之间使用下划线（_）来对数字分组（就像使用逗号和点来对数字分组那样）。
 
@@ -205,7 +205,7 @@ let martin = 0xF0_1E_
 
 [数字分隔符](https://www.tslang.cn/docs/release-notes/typescript-2.7.html)
 
-## \#
+## \# 运算符
 
 TypeScript 3.8 支持在 ECMAScript 中处于 [stage-3](https://github.com/tc39/proposal-class-fields/) 中的私有字段。
 
