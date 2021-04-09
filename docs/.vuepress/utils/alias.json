@@ -31,6 +31,7 @@
   "blog": "博客",
   "references": "tsconfig - references",
   "tsconfig-module-target": "Typescript Module Target",
+  "interface-vs-type": "interface 和 type 有什么异同点？",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }

@@ -1,8 +1,9 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-03-12)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-09)
 
 
 ### Bug Fixes
 
+* ts operator & chinese anchor bug; type challenges for guide reference ([a441bd5](https://github.com/Rain120/typescript-guide/commit/a441bd541d5a4a33f6228a5c3b50cad51ca8b27f))
 * what is typescript for diff with js ([34b01a7](https://github.com/Rain120/typescript-guide/commit/34b01a71712e54e05a973c4b33b68cb5ec7a0b1e))
 
 
