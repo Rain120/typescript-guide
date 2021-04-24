@@ -14,6 +14,7 @@
 * faqs add interface vs type ([3bf6171](https://github.com/Rain120/typescript-guide/commit/3bf61710c8395d8ba73adfc0ae4eb7a3be0f5021))
 * finished declaration ([b30964d](https://github.com/Rain120/typescript-guide/commit/b30964d056cd2c03bcaa0dd3a19a60215510ec90))
 * tsconfig - references ([ad24a19](https://github.com/Rain120/typescript-guide/commit/ad24a197efd8703ab818458246d141b3adf5f226))
+* tsconfig about file inclision keywords ([c566316](https://github.com/Rain120/typescript-guide/commit/c566316727123cb0998c1f09f6736c2902d1d1c6))
 * tsconfig module target; remove faqs module, target ([48d3e0f](https://github.com/Rain120/typescript-guide/commit/48d3e0f16f0957b08da24352ca73eb1e5770d382))
 
 

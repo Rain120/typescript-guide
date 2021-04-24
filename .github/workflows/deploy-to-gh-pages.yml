@@ -15,18 +15,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout 🛎️
         uses:  actions/checkout@master
-      
-      - name: Install and Build
+
+      - name: Install and Build 🔧
         run: |
           # npm ci 依赖 package-lock.json
           # npm ci
           npm install
           npm run docs:build
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
