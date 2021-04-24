@@ -102,6 +102,8 @@
 
 - [tsconfig-module-target](./tsconfig-module-target/README.md)
 
+- [TypeScript 文件包含相关配置](./file-inclusion/README.md)
+
 ## 参考资料
 
 [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)

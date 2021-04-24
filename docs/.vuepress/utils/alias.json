@@ -29,6 +29,7 @@
   "implements": "implements",
   "infer": "infer",
   "blog": "博客",
+  "file-inclusion": "Typescript 文件包含相关配置",
   "references": "tsconfig - references",
   "tsconfig-module-target": "Typescript Module Target",
   "interface-vs-type": "interface 和 type 有什么异同点？",
