@@ -3,6 +3,8 @@
 
 ### Bug Fixes
 
+* bug about deploy action folder ([938379b](https://github.com/Rain120/typescript-guide/commit/938379bf7018ceacaeffff789d7dd2914c451b7b))
+* bug about deploy action folder ([57f4fae](https://github.com/Rain120/typescript-guide/commit/57f4fae89f0f478a51f58c5873936a264e6d4b09))
 * bug about github actions deploy branch config error ([bc992c0](https://github.com/Rain120/typescript-guide/commit/bc992c05ee17bfcccca14b3400e0e81e9c16c423))
 * github actions deploy bug ([4c64d68](https://github.com/Rain120/typescript-guide/commit/4c64d68ddd17f03a3900219ed06ba453fb25a49f))
 * style about deploy with params at yml file ([a4d5ed3](https://github.com/Rain120/typescript-guide/commit/a4d5ed3924239b6498aae6fde169c162123633e7))
