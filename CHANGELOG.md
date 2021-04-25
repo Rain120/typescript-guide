@@ -1,9 +1,12 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-24)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-25)
 
 
 ### Bug Fixes
 
+* bug about github actions deploy branch config error ([bc992c0](https://github.com/Rain120/typescript-guide/commit/bc992c05ee17bfcccca14b3400e0e81e9c16c423))
 * github actions deploy bug ([4c64d68](https://github.com/Rain120/typescript-guide/commit/4c64d68ddd17f03a3900219ed06ba453fb25a49f))
+* style about deploy with params at yml file ([a4d5ed3](https://github.com/Rain120/typescript-guide/commit/a4d5ed3924239b6498aae6fde169c162123633e7))
+* style about deploy with params at yml file ([ddbcee6](https://github.com/Rain120/typescript-guide/commit/ddbcee6fb81af41bcb6528d4db884758c310f476))
 * ts operator & chinese anchor bug; type challenges for guide reference ([a441bd5](https://github.com/Rain120/typescript-guide/commit/a441bd541d5a4a33f6228a5c3b50cad51ca8b27f))
 * what is typescript for diff with js ([34b01a7](https://github.com/Rain120/typescript-guide/commit/34b01a71712e54e05a973c4b33b68cb5ec7a0b1e))
 
