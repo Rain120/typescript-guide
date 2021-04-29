@@ -122,7 +122,10 @@
 
 ```json
 {
-  "files": ["main.ts", "supplemental.ts"]
+  "references": [
+		// ... path
+		"some/path/which/you/want/to/set/it",
+	]
 }
 ```
 
