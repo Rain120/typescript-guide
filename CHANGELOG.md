@@ -16,6 +16,7 @@
 
 ### Features
 
+* add Previously at keyword for descript the resource about it ([be81d8e](https://github.com/Rain120/typescript-guide/commit/be81d8e5f2f6d2892852f72143b09607ddc1d78a))
 * blog tips & pdfs & books ([310765f](https://github.com/Rain120/typescript-guide/commit/310765ffd4e95bcde3dc3a33c3ca7115f80d30f1))
 * faqs about tsconfig module target ([d40988c](https://github.com/Rain120/typescript-guide/commit/d40988c26b6c287dc72aac94a4c76b2f07cfa8cf))
 * faqs add interface vs type ([3bf6171](https://github.com/Rain120/typescript-guide/commit/3bf61710c8395d8ba73adfc0ae4eb7a3be0f5021))

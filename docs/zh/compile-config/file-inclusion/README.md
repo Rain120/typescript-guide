@@ -135,7 +135,26 @@
 
 默认是: `false`
 
-当你的编辑器中有一个 `JavaScript` 项目时, `TypeScript` 会使用`@types` 定义的 `DefinitelyTyped` 集合自动为你的节点模块提供类型。这称为自动类型获取, 您可以使用配置中的 `typeAcquisition` 对象对其进行自定义。
+当你的编辑器中有一个 `JavaScript` 项目时, `TypeScript` 会使用`@types` 定义的 `DefinitelyTyped` 集合自动为你的节点模块提供类型。这称为自动类型获取, 您可以使用配置中的 `typeAcquisition` 对象对其进行自定义。换句话来说就是设置自动引入库类型定义文件 `.d.ts` 相关。
+
+#### 语法
+
+```json
+{
+  // ...
+  "typeAcquisition": {
+	// 是否开启自动引入库类型定义文件 .d.ts，默认为 false
+    "enable": false,
+	// 允许自动引入的库名，如：[ "jquery", "lodash" ]
+    "include": ["jest"]
+	// 排除的库名。
+    "exclude": ["jquery"],
+  }
+}
+
+```
+
+#### 使用
 
 如果您想禁用或自定义此特性, 请创建 `jsconfig.json` 在项目的根目录中
 
