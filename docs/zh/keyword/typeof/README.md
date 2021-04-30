@@ -1,3 +1,7 @@
+## Previously
+
+`typeof` 只能校验基本类型只能返回这种类型, `undefined`, `boolean`, `string`, `number`, `object`, `function`。
+
 ## 定义 <Badge text='Typescript typeof 关键字' />
 
 :::theorem typeof
@@ -18,6 +22,18 @@ function getType(val: any) {
 }
 
 getType('name'); // string
+
+const COLORS = {
+  red: 'red',
+  blue: 'blue'
+}
+
+// 通过 typeof 操作符获取 color 变量的类型
+type Type = typeof COLORS
+// {
+// 	red: string;
+// 	blue: string;
+// }
 ```
 
 ## 快来耍耍啊

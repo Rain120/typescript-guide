@@ -1,7 +1,25 @@
-## 定义
+## Previously
 
-`extends` 可以用来继承一个类，也可以用来继承一个 `interface`，但还可以用来判断有条件类型
+```js
+class Fruit {
+	name: string;
+	color: string;
+}
 
+class Apple extends Fruit {
+	// bla bla
+}
+```
+
+`Class` 可以通过 `extends` 关键字实现继承，这比 `ES5` 的通过修改原型链实现继承，要清晰和方便很多。[More Info](https://es6.ruanyifeng.com/?search=extends&x=0&y=0#docs/class-extends)
+
+## 定义 <Badge text='Typescript extends 关键字' />
+
+:::theorem extends
+可以用来继承一个类，也可以用来继承一个 `interface`，但还可以用来判断有条件类型
+:::right
+[TypeScript 2.8](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html)
+:::
 ## 使用
 
 ### 条件类型

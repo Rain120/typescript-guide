@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-29)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-30)
 
 
 ### Bug Fixes
@@ -6,6 +6,7 @@
 * bug about deploy action folder ([57f4fae](https://github.com/Rain120/typescript-guide/commit/57f4fae89f0f478a51f58c5873936a264e6d4b09))
 * bug about deploy action folder(not home ~) ([c4eb45d](https://github.com/Rain120/typescript-guide/commit/c4eb45d079e8fc63ebffd3dca04f5111072da894))
 * bug about github actions deploy branch config error ([bc992c0](https://github.com/Rain120/typescript-guide/commit/bc992c05ee17bfcccca14b3400e0e81e9c16c423))
+* file inclusion references code ([97806cc](https://github.com/Rain120/typescript-guide/commit/97806ccb834cf0741213da1a496292c7fb301e40))
 * github actions deploy bug ([4c64d68](https://github.com/Rain120/typescript-guide/commit/4c64d68ddd17f03a3900219ed06ba453fb25a49f))
 * style about deploy with params at yml file ([a4d5ed3](https://github.com/Rain120/typescript-guide/commit/a4d5ed3924239b6498aae6fde169c162123633e7))
 * style about deploy with params at yml file ([ddbcee6](https://github.com/Rain120/typescript-guide/commit/ddbcee6fb81af41bcb6528d4db884758c310f476))

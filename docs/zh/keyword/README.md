@@ -4,6 +4,8 @@
 Typescript 常用关键字解析和使用。
 :::
 
+[TypeScript as 关键字](./as/README.md)
+
 [TypeScript is 关键字](./is/README.md)
 
 [TypeScript keyof 关键字](./keyof/README.md)

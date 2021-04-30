@@ -1,7 +1,11 @@
-## 定义
+## Previously
 
-[Implement (实现)](https://en.wikipedia.org/wiki/Implement) 是面向对象中的一个重要概念。它是要实现一个已经定义好的接口中的方法。
+请先行了解 👉 [Interface](../../interface/README.md)。
+## 定义 <Badge text='Typescript implements 关键字' />
 
+:::theorem implements
+[implements (实现)](https://en.wikipedia.org/wiki/Implement) 是面向对象中的一个重要概念。它是要实现一个已经定义好的接口中的方法。
+:::
 ## 使用
 
 ### 接口实现
