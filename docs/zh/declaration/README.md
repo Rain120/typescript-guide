@@ -2,21 +2,66 @@
 
 当使用第三方库时, 我们需要引用它的声明文件, 才能获得对应的代码补全、接口提示等功能。
 
-::: warning
-
+:::warning
 声明文件必需以 `.d.ts` 为后缀。
-
 :::
 
-#### 声明文件位置
+### 项目如何识别声明文件(识别顺序)
+
+优先从 `tsconfig.json` 配置的 `includes`字段配置的路径查询，然后从项目中查到`*.d.ts`文件，最后到 `node_modules/@types`路径中找。
+
+### 声明文件位置
 
 - 第三方安装的 `@types/xxx`，会在 `node_modules/@types` 路径下。
+  :::tip 应用方式
+    所有的 `@types` 包都会 **在编译时** 应用，`typescript` 会从 `node_modules/@types`，以及依赖包的 `node_modules/@types` 中去匹配到相应的 **类型定义文件**。
+
+    ```sh
+    .
+    ├── node_modules
+    │   ├── @types
+    │   ├── pkg
+    │       ├── node_modules
+    │           ├── @types
+    ```
+  :::
 
 - 自定义的，我一般会写在项目的根路径 `typings` 或者 `@types`。
 
-#### 项目如何识别声明文件(识别顺序)
+  :::tip 应用方式
+    自定义的 **类型定义** 可以通过 `tsconfig.json` 的配置 `compilerOptions.typesRoot` 来设置匹配的类型文件，如下👇🏻👇🏻👇🏻
 
-优先从 `tsconfig.json` 配置的 `includes`字段配置的路径查询，然后从项目中查到`*.d.ts`文件，最后到 `node_modules/@types`路径中找。
+    ```json
+    {
+       "compilerOptions": {
+           "typeRoots" : ["./typings"]
+       }
+    }
+    ```
+
+    **Note:** 只有在 `typeRoots` 中的包才会被包含，也就是不会再去查找`node_modules/@types` 路径下 **类型定义** 了。
+
+    除此之外，也可以通过`compilerOptions.typesRoot` 来设置匹配的类型文件。
+
+    ```json
+    {
+       "compilerOptions": {
+           "types" : ["node", "lodash"]
+       }
+    }
+    ```
+
+    **Note:** 这样将只会包含下面两个类型定义，**其它的** 则不会被包含进来。
+
+    ```sh
+    .
+    ├── node_modules
+    │   ├── @types
+    │       ├── node
+    │       ├── lodash
+    ```
+    如果配置为 `"types": []` 则不会包含任何包。
+  :::
 
 ## 使用
 
