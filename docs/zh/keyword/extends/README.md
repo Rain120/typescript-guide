@@ -16,15 +16,20 @@ class Apple extends Fruit {
 ## 定义 <Badge text='Typescript extends 关键字' />
 
 :::theorem extends
-可以用来继承一个类，也可以用来继承一个 `interface`，但还可以用来判断有条件类型
+可以用来继承一个类，也可以用来继承一个 `interface`，但还可以用来判断有条件类型，**接口支持多重继承，语法为逗号隔开**。
 :::right
 [TypeScript 2.8](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html)
 :::
+
 ## 使用
 
 ### 条件类型
 
 [Typescript 2.8 新增](https://devblogs.microsoft.com/typescript/announcing-typescript-2-8-2/#conditional-types) `extends` 用来条件类型判断。
+
+:::tips
+表示条件判断，如果前面的条件满足，则返回问号后的第一个参数，否则第二个。类似于js的三元运算。
+:::
 
 ```ts
 T extends U ? X : Y
@@ -109,7 +114,7 @@ class Person {
   name: string;
   age?: string | number;
   
-  construtor(options: Profile) {
+  constructor(options: Profile) {
     this.name = options?.name;
     this.age = options?.age;
   }
