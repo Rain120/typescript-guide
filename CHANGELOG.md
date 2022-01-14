@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2021-04-30)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2022-01-14)
 
 
 ### Bug Fixes
@@ -16,8 +16,12 @@
 
 ### Features
 
+* **declaration:** update ([978e800](https://github.com/Rain120/typescript-guide/commit/978e8002c92198ac37a6c09c20c9a6f55bc4145e))
+* **extends:** update ([8cd0fdc](https://github.com/Rain120/typescript-guide/commit/8cd0fdc819baf8178a16e3b3dcc77b3b90c11ec3))
+* **keyof:** update usage ([37c61cb](https://github.com/Rain120/typescript-guide/commit/37c61cbf14eb66f5c84c8cd90a27b79183cc0bf7))
 * add Previously at keyword for descript the resource about it ([be81d8e](https://github.com/Rain120/typescript-guide/commit/be81d8e5f2f6d2892852f72143b09607ddc1d78a))
 * blog tips & pdfs & books ([310765f](https://github.com/Rain120/typescript-guide/commit/310765ffd4e95bcde3dc3a33c3ca7115f80d30f1))
+* compile-config about module resolver & flie inclusive; keyword about is ([4b5832d](https://github.com/Rain120/typescript-guide/commit/4b5832df75a82cd75b553463d1ed476f22d20fd1))
 * faqs about tsconfig module target ([d40988c](https://github.com/Rain120/typescript-guide/commit/d40988c26b6c287dc72aac94a4c76b2f07cfa8cf))
 * faqs add interface vs type ([3bf6171](https://github.com/Rain120/typescript-guide/commit/3bf61710c8395d8ba73adfc0ae4eb7a3be0f5021))
 * finished declaration ([b30964d](https://github.com/Rain120/typescript-guide/commit/b30964d056cd2c03bcaa0dd3a19a60215510ec90))

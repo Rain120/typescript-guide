@@ -4,24 +4,32 @@
 交叉类型是将多个类型合并为一个类型。 这让我们可以把现有的多种类型叠加到一起成为一种类型, 它包含了所需的所有类型的特性。
 :::
 
-**Note:** 交叉类型是 **或** 的关系, 即 $A \cup B$, 使用 `&` 运算符。
+**Note:** 交叉类型是 **或** 的关系, 即 $A \cup B$, 使用 `&` 运算符。**如果两个类型中出现相同的key，但是类型不同**，**则该key为never**。
 
 ## 使用
 
 ```ts
 interface Boy {
   handsome: boolean;
+  name?: string;
 }
 
 interface Girl {
   cute: boolean;
+  name?: string;
 }
 
+// {
+//   cute: boolean;
+//   handsome: boolean;
+//   name?: never;
+// }
 type Person = Boy & Girl;
 
 const someone: Person = {
-	handsome: true,
-	cute: false
+  handsome: true,
+  cute: false,
+  name: 'Rain120'
 };
 ```
 
