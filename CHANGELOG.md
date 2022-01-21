@@ -1,4 +1,4 @@
-# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2022-01-14)
+# [1.0.0](https://github.com/Rain120/typescript-guide/compare/0.0.1...1.0.0) (2022-01-21)
 
 
 ### Bug Fixes
@@ -18,6 +18,7 @@
 
 * **declaration:** update ([978e800](https://github.com/Rain120/typescript-guide/commit/978e8002c92198ac37a6c09c20c9a6f55bc4145e))
 * **extends:** update ([8cd0fdc](https://github.com/Rain120/typescript-guide/commit/8cd0fdc819baf8178a16e3b3dcc77b3b90c11ec3))
+* **intersection-types:** update ([e5ffe1b](https://github.com/Rain120/typescript-guide/commit/e5ffe1bd61dd154329422a420c9a91f3346e6a90))
 * **keyof:** update usage ([37c61cb](https://github.com/Rain120/typescript-guide/commit/37c61cbf14eb66f5c84c8cd90a27b79183cc0bf7))
 * add Previously at keyword for descript the resource about it ([be81d8e](https://github.com/Rain120/typescript-guide/commit/be81d8e5f2f6d2892852f72143b09607ddc1d78a))
 * blog tips & pdfs & books ([310765f](https://github.com/Rain120/typescript-guide/commit/310765ffd4e95bcde3dc3a33c3ca7115f80d30f1))

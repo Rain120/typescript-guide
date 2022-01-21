@@ -34,6 +34,7 @@
   "tsconfig-module-target": "Typescript Module Target",
   "interface-vs-type": "interface 和 type 有什么异同点？",
   "module-resolver": "Typescript 模块解析",
+  "custom-utility-types": "自定义工具类型",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
