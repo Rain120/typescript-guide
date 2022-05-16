@@ -60,7 +60,7 @@
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-katex": "^2.0.3",
     "markdown-it-task-lists": "^2.1.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "monaco-editor-webpack-plugin": "^1.9.0",
     "plop": "^2.6.0",
     "vuepress": "^1.5.2",
