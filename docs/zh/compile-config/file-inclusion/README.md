@@ -146,7 +146,7 @@
 	// 是否开启自动引入库类型定义文件 .d.ts，默认为 false
     "enable": false,
 	// 允许自动引入的库名，如：[ "jquery", "lodash" ]
-    "include": ["jest"]
+    "include": ["jest"],
 	// 排除的库名。
     "exclude": ["jquery"],
   }
