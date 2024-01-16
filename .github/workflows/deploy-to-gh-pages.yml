@@ -17,6 +17,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses:  actions/checkout@master
+      
+      - name: Checkout node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 16
 
       - name: Install and Build 🔧
         run: |

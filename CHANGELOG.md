@@ -16,6 +16,7 @@
 
 ### Features
 
+* 工具类型 ([afeb366](https://github.com/Rain120/typescript-guide/commit/afeb366af952d750f012e51fb1c5a33b738f37bd))
 * **declaration:** update ([978e800](https://github.com/Rain120/typescript-guide/commit/978e8002c92198ac37a6c09c20c9a6f55bc4145e))
 * **extends:** update ([8cd0fdc](https://github.com/Rain120/typescript-guide/commit/8cd0fdc819baf8178a16e3b3dcc77b3b90c11ec3))
 * **intersection-types:** update ([e5ffe1b](https://github.com/Rain120/typescript-guide/commit/e5ffe1bd61dd154329422a420c9a91f3346e6a90))
