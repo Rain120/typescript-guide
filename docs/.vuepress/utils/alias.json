@@ -35,6 +35,8 @@
   "interface-vs-type": "interface 和 type 有什么异同点？",
   "module-resolver": "Typescript 模块解析",
   "custom-utility-types": "自定义工具类型",
+  "if-else": "条件类型",
+  "spread": "拓展运算符",
   "tips": "Typescript Tips",
   "faqs": "Typescript FAQs"
 }
